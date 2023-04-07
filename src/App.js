@@ -3,6 +3,7 @@ import {Routes, Route, Navigate} from "react-router-dom";
 import Homepage from "./pages/homepage/Homepage";
 import AboutMe from "./pages/aboutMe/AboutMe";
 import Projects from "./pages/projects/Projects";
+import Blog from "./pages/blog/Blog";
 import Contact from "./pages/contact/Contact";
 import CV from "./pages/cv/CV";
 import Nav from "./components/nav/Nav";
@@ -30,12 +31,17 @@ function App() {
             />
 
             <Route
-                path="/Projects"
+                path="/projects"
                 element={<Projects/>}
             />
 
             <Route
-                path="/Contact"
+                path="/blog"
+                element={<Blog/>}
+            />
+
+            <Route
+                path="/contact"
                 element={<Contact/>}/>
             />
 

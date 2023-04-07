@@ -1,14 +1,20 @@
 import React from 'react';
 import "./AboutMe.css";
 import WaterfallNorway from "../../assets/WaterfallNorway.jpg";
+import {useNavigate} from "react-router-dom";
+import Button from "../../components/button/Button";
+import { SlEmotsmile } from "react-icons/sl";
+
 
 function AboutMe() {
+        const navigate = useNavigate();
+
     return (
         <div class="page--flex">
 
-            <div className="left-side">
+            <div className="left-side side__40">
                 <h1>Over mij</h1>
-                <p>Coderen doe ik al van jongs af aan; al voor het digitale tijdperk :). Mijn brede interesse, mijn
+                <p>Coderen doe ik al van jongs af aan; al voor het digitale tijdperk <SlEmotsmile />. Mijn brede interesse, mijn
                     creativiteit, mijn analytische inslag, hebben allemaal bijgedragen tot mijn huidige carrière als
                     fullstack developer. Mijn bijzondere werkgeschiedenis toont mijn flexibiliteit aan, mijn
                     leergierigheid.
@@ -20,9 +26,14 @@ function AboutMe() {
                     Daarnaast zet ik mij graag in voor een duurzame samenleving.</p>
                 <p>Programma's: HTML/CSS, Javascript, React, Wordpress, Java, Spring Boot, Maven, Postman, PostgreSQL,
                     IntelliJ, WebStorm, Github, Visual paradigm, Figma.</p>
+                <Button
+                    type="button"
+                    onClick={() => navigate("/cv")}>
+                    Mijn CV
+                </Button>
             </div>
 
-            <div className="right-side">
+            <div className="right-side side__40">
                 <img src={WaterfallNorway} className="photo"/>
                 <p className="photo-caption">Waterval (geen idee meer welke van de vele), Noorwegen, 2022</p>
                 <ul>

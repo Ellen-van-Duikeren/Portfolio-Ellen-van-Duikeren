@@ -13,11 +13,14 @@ function Nav() {
                 <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/about-me">
                     <li>Over mij</li>
                 </NavLink>
-                <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'}  to="/cv">
-                    <li>Mijn CV</li>
-                </NavLink>
+                {/*<NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'}  to="/cv">*/}
+                {/*    <li>Mijn CV</li>*/}
+                {/*</NavLink>*/}
                 <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/projects">
                     <li>Projecten</li>
+                </NavLink>
+                <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/blog">
+                    <li>Blog</li>
                 </NavLink>
                 <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'}  to="/contact">
                     <li>Contact</li>

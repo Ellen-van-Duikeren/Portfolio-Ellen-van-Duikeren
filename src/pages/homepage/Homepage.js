@@ -5,12 +5,12 @@ import UitkijkpuntNorway from "../../assets/UitkijkpuntNorway.jpg";
 function Homepage() {
     return (
         <div className="page--flex">
-            <div className="left-side">
+            <div className="left-side side__40">
                 <img src={UitkijkpuntNorway} className="photo"/>
                 <p className="photo-caption">Stegastein, Noorwegen, 2022</p>
             </div>
 
-            <div class="page right-side">
+            <div class="page right-side side__40">
                 <h1>Hoi, ik ben Ellen van Duikeren</h1>
                 <h1>Ik ben een junior Fullstack Developer</h1>
                 <p>Zoals je kunt zien op deze website:</p>

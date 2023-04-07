@@ -19,8 +19,11 @@
 body {
     background-image: url("assets/TilesPortugal.jpg");
     background-repeat: repeat;
-    margin: 0 auto;
     max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
 }
 
 .page {
@@ -37,22 +40,47 @@ body {
     justify-content: space-around;
 }
 
+.block {
+    border: transparent;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    padding: 1em;
+}
+
+.block__orange {
+    background-color: var(--orange);
+}
+
 /*css on page where left text and right photo................*/
 .left-side {
     margin-left: 1em;
-    width: 45vw;
-    background-color: var(--orange);
     padding: 1em;
     margin-bottom: 2em;
     border-radius: 0.5em;
+    background-color: var(--orange);
 }
 
 .right-side {
-    width: 45vw;
-    background-color: var(--orange);
     padding: 1em;
     margin-bottom: 2em;
     border-radius: 0.5em;
+    background-color: var(--orange);
+}
+
+.side__30 {
+    width: 30vw;
+}
+
+.side__40 {
+    width: 40vw;
+}
+
+.side__50 {
+    width: 50vw;
+}
+
+.side__60 {
+    width: 60vw;
 }
 
 /*photo.....................................................*/
@@ -81,7 +109,7 @@ h2 {
 
 h3 {
     font-size: calc(var(--baseFont) * 1.2);
-    padding-top: 0.5em;
+    /*padding-top: 0.5em;*/
     padding-bottom: 0.5em;
 }
 

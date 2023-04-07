@@ -5,15 +5,15 @@ import BeachPortugal from "../../assets/BeachPortugal.jpg";
 function Contact() {
     return (
         <div className="page, page--flex">
-            <div className="left-side">
+            <div className="left-side side__40 block__orange">
                 <img src={BeachPortugal} className="photo"/>
                 <p className="photo-caption">Strand, Espinho, Portugal, 2022</p>
             </div>
 
-            <div className="right-side">
+            <div className="right-side side__40">
                 <h1>Contact</h1>
                 <ul>
-                    <p>Zoekt uw organisatie een enthousiaste fullstack developer, neem dan contact met mij op:</p>
+                    <p>Zoek je een enthousiaste fullstack developer, neem dan contact met mij op:</p>
                     <li>Ellen van Duikeren</li>
                     <li>Woonplaats: Haarlem</li>
                     <li>✉ e.vanduikeren@gmail.com</li>
