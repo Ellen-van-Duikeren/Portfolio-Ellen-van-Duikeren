@@ -1,7 +1,7 @@
 {
   "name": "portfolio_ellen_van_duikeren",
   "version": "0.1.0",
-  "http://Ellen-van-Duikeren.github.io/portfolio-ellen-van-duikeren",
+  "homepage": "https://Ellen-van-Duikeren.github.io/portfolio_ellen_van_duikeren",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
