@@ -11,7 +11,7 @@ function Homepage() {
             </div>
 
             <div class="page right-side side__40">
-                <h1>Hoi, ik ben Ellen van Duikeren</h1>
+                <h1>Hoi, ik ben <span>Ellen van Duikeren</span></h1>
                 <h1>Ik ben een junior Fullstack Developer</h1>
                 <p>Zoals je kunt zien op deze website:</p>
                 <ul>

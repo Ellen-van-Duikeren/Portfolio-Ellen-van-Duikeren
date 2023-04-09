@@ -5,7 +5,7 @@ function Tile({nameImg, title, url, description, languages, date}) {
     return (
         <div className="tile">
 
-            <img src={nameImg} className=" tile--image"/>
+            <img src={nameImg} className="tile--image"/>
 
             <div className="tile--text">
                 <h3>{title}</h3>

@@ -6,7 +6,7 @@ function Contact() {
     return (
         <div className="page, page--flex">
             <div className="left-side side__40 block__orange">
-                <img src={BeachPortugal} className="photo"/>
+                <img src={BeachPortugal} alt="Strand, Espinho, Portugal" className="photo"/>
                 <p className="photo-caption">Strand, Espinho, Portugal, 2022</p>
             </div>
 

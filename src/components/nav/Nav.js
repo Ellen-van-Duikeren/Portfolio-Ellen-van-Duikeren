@@ -7,7 +7,7 @@ function Nav() {
     return (
         <nav>
             <ul className="nav__ul">
-                <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to = "/">
+                <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/">
                     <li>Home</li>
                 </NavLink>
                 <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/about-me">
@@ -22,9 +22,16 @@ function Nav() {
                 <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/blog">
                     <li>Blog</li>
                 </NavLink>
-                <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'}  to="/contact">
+                <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/contact">
                     <li>Contact</li>
                 </NavLink>
+
+                <label className="toggle">
+                    <input className="toggle-checkbox" type="checkbox"/>
+                        <div className="toggle-switch"></div>
+                        <span className="toggle-label">Animaties</span>
+                </label>
+
             </ul>
         </nav>
     );

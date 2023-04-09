@@ -1,6 +1,6 @@
 import React from 'react';
 import "./AboutMe.css";
-import WaterfallNorway from "../../assets/WaterfallNorway.jpg";
+import Avatoon from "../../assets/Avatoon bijgewerkt.jpg";
 import {useNavigate} from "react-router-dom";
 import Button from "../../components/button/Button";
 import { SlEmotsmile } from "react-icons/sl";
@@ -12,7 +12,7 @@ function AboutMe() {
     return (
         <div class="page--flex">
 
-            <div className="left-side side__40">
+            <div className="left-side side__50">
                 <h1>Over mij</h1>
                 <p>Coderen doe ik al van jongs af aan; al voor het digitale tijdperk <SlEmotsmile />. Mijn brede interesse, mijn
                     creativiteit, mijn analytische inslag, hebben allemaal bijgedragen tot mijn huidige carrière als
@@ -31,17 +31,18 @@ function AboutMe() {
                     onClick={() => navigate("/cv")}>
                     Mijn CV
                 </Button>
-            </div>
 
-            <div className="right-side side__40">
-                <img src={WaterfallNorway} className="photo"/>
-                <p className="photo-caption">Waterval (geen idee meer welke van de vele), Noorwegen, 2022</p>
-                <ul>
-                    <li>Ik hou van water (watervalwater, drinkwater, vruchtwater,...)</li>
+                <ul className="margin-top1">
+                    <li>Ik hou van water (drinkwater, vruchtwater,...)</li>
                     <li>Ik hou van structuur</li>
                     <li>Ik hou van samenwerken</li>
                     <li>Ik hou van buiten zijn (maar doe dat veel te weinig)</li>
                 </ul>
+            </div>
+
+            <div className="right-side side__30">
+                <img src={Avatoon} className="photo"/>
+                <p className="photo-caption">It's me (ik kon alleen geen groen-blauw-grijze ogen kiezen, jammer)</p>
             </div>
 
         </div>

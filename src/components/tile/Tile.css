@@ -9,10 +9,11 @@
 }
 
 .tile--image {
-    width: calc(100%- 2em);
-    height: 20em;
     padding: 1.5em 1.5em 0 1.5em;
+    height: 20em;
     object-fit: cover;
+    /*border: 2px solid black;*/
+    /*border-radius: 0.5em;*/
 }
 
 .tile--text {

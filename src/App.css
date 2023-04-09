@@ -124,6 +124,10 @@ li {
     line-height: 1.6em;
 }
 
+.line-through {
+    text-decoration-line: line-through;
+}
+
 /*anchor tags.................................................*/
 a {
     color: black;
