@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/css/main.c20642ab.css",
-    "main.js": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/js/main.0bcfd527.js",
-    "static/media/Mindmap Ellen van Duikeren.jpg": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/media/Mindmap Ellen van Duikeren.39bb13b2dae7de9a2492.jpg",
-    "static/media/UitkijkpuntNorway.jpg": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/media/UitkijkpuntNorway.4ff60fb53adf33b0e0a8.jpg",
-    "static/media/TilesPortugal.jpg": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/media/TilesPortugal.85a7263c59b235cb4889.jpg",
-    "static/media/Avatoon bijgewerkt.jpg": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/media/Avatoon bijgewerkt.a12f48e4e06fedf046fa.jpg",
-    "static/media/BeachPortugal.jpg": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/media/BeachPortugal.4c8ee051eee8580bf185.jpg",
-    "static/media/jokenoordstrand.jpg": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/media/jokenoordstrand.30c5eff4848226e1b315.jpg",
-    "static/media/roodwerk.jpg": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/media/roodwerk.57ea93bf4c6834a596e7.jpg",
-    "static/media/wildplukrecepten.jpg": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/media/wildplukrecepten.448b15ef294490bc3229.jpg",
-    "index.html": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/index.html",
-    "main.c20642ab.css.map": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/css/main.c20642ab.css.map",
-    "main.0bcfd527.js.map": "/Ellen-van-Duikeren/Portfolio-Ellen-van-Duikeren/static/js/main.0bcfd527.js.map"
+    "main.css": "/Ellen-van-Duikeren/static/css/main.b260ace7.css",
+    "main.js": "/Ellen-van-Duikeren/static/js/main.93f75586.js",
+    "static/media/Mindmap Ellen van Duikeren.jpg": "/Ellen-van-Duikeren/static/media/Mindmap Ellen van Duikeren.39bb13b2dae7de9a2492.jpg",
+    "static/media/UitkijkpuntNorway.jpg": "/Ellen-van-Duikeren/static/media/UitkijkpuntNorway.4ff60fb53adf33b0e0a8.jpg",
+    "static/media/TilesPortugal.jpg": "/Ellen-van-Duikeren/static/media/TilesPortugal.85a7263c59b235cb4889.jpg",
+    "static/media/Avatoon bijgewerkt.jpg": "/Ellen-van-Duikeren/static/media/Avatoon bijgewerkt.a12f48e4e06fedf046fa.jpg",
+    "static/media/BeachPortugal.jpg": "/Ellen-van-Duikeren/static/media/BeachPortugal.4c8ee051eee8580bf185.jpg",
+    "static/media/jokenoordstrand.jpg": "/Ellen-van-Duikeren/static/media/jokenoordstrand.30c5eff4848226e1b315.jpg",
+    "static/media/roodwerk.jpg": "/Ellen-van-Duikeren/static/media/roodwerk.57ea93bf4c6834a596e7.jpg",
+    "static/media/wildplukrecepten.jpg": "/Ellen-van-Duikeren/static/media/wildplukrecepten.448b15ef294490bc3229.jpg",
+    "index.html": "/Ellen-van-Duikeren/index.html",
+    "main.b260ace7.css.map": "/Ellen-van-Duikeren/static/css/main.b260ace7.css.map",
+    "main.93f75586.js.map": "/Ellen-van-Duikeren/static/js/main.93f75586.js.map"
   },
   "entrypoints": [
-    "static/css/main.c20642ab.css",
-    "static/js/main.0bcfd527.js"
+    "static/css/main.b260ace7.css",
+    "static/js/main.93f75586.js"
   ]
 }
