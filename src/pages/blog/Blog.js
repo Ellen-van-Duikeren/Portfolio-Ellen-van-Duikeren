@@ -12,8 +12,8 @@ function Blog() {
                     <BlogComp
                         date="10 april 2023"
                         title="Deploying website"
-                        p1="Tsjonge, dat was en klusje om mijn website op github pages gedeployed te krijgen. Voor alles is een eerste keer. En daar waar de meeste tutorials uitgaan van een lege react app, had ik natuurlijk al een bestaande app."
-                        p2="Waar liep ik verder nog tegenaan. Er zijn verschillende tutorials, die het natuurlijk allemaal net even wat anders doen. En opeens was mijn website in de lucht, maar alleen mijn readme. Er staat een instelling nog niet goed dus, maar welke. Vervolgens, na wat veranderingen, had ik alleen een blanco pagina. Beetje saai, maar uiteindelijk lukte het, nadat ik de hoofdletters van mijn repository door kleine letters had vervangen. Jippie, online. Meteen op mijn LinkedIn gezet en nu weer lekker verder..."
+                        p1="Dat was een klus zeg, om mijn website op github pages gedeployed te krijgen. Voor alles is een eerste keer."
+                        p2="Waar liep ik tegenaan. Er zijn verschillende tutorials, die het natuurlijk allemaal net even anders doen. Ik heb wat geschakeld tussen deze tutorials. Ik had al vrij snel mijn website in de lucht, maar alleen mijn readme. Vervolgens, na wat veranderingen, had ik alleen een blanco pagina over. Beetje saai, vond ik. Uiteindelijk lukte het, nadat ik de hoofdletters van mijn repository door kleine letters had vervangen. Jippie, online. Meteen op mijn LinkedIn gezet en nu weer lekker verder..."
                         t1="deployed"
                         t2="gh-pages"
                     />
