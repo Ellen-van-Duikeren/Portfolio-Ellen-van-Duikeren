@@ -10,6 +10,15 @@ function Blog() {
                 <div>
 
                     <BlogComp
+                        date="10 april 2023"
+                        title="Deploying website"
+                        p1="Tsjonge, dat was en klusje om mijn website op github pages gedeployed te krijgen. Voor alles is een eerste keer. En daar waar de meeste tutorials uitgaan van een lege react app, had ik natuurlijk al een bestaande app."
+                        p2="Waar liep ik verder nog tegenaan. Er zijn verschillende tutorials, die het natuurlijk allemaal net even wat anders doen. En opeens was mijn website in de lucht, maar alleen mijn readme. Er staat een instelling nog niet goed dus, maar welke. Vervolgens, na wat veranderingen, had ik alleen een blanco pagina. Beetje saai, maar uiteindelijk lukte het, nadat ik de hoofdletters van mijn repository door kleine letters had vervangen. Jippie, online. Meteen op mijn LinkedIn gezet en nu weer lekker verder..."
+                        t1="deployed"
+                        t2="gh-pages"
+                    />
+
+                    <BlogComp
                         date="8 april 2023"
                         title="Over favicon, title en avatars"
                         p1="Vandaag heb ik een avatar gemaakt, omdat ik bijna nooit leuk op een foto sta. Die avatars zijn hier namelijk wel keigoed in en je moet gebruik maken van je talenten, toch? Ik  heb de app avatoon gebruikt. Simpel in gebruik, maar ik werd ook simpel van de veeeele adds. Bij alles wat ik deed kreeg ik er gratis een add bij van 30 seconden ofzo. Ach ja, je moet er wat voor over hebben."
@@ -55,7 +64,7 @@ function Blog() {
                 <div className="margin-top2">
                     <h3>Ideeen in willekeurige volgorde</h3>
                     <ol>
-                        <li>hosten google / github / gitpages / netlify?</li>
+                        <li className="line-through">hosten google / github / gitpages / netlify?</li>
                         <li>responsive maken</li>
                         <li className="line-through">foto avatar van mijzelf</li>
                         <li>pop ups component</li>
@@ -66,6 +75,7 @@ function Blog() {
                         <li>als animatie aan dan 2e nav met buttons voor animatie</li>
                         <li className="line-through">blog pagina</li>
                         <li className="line-through">blog met tags</li>
+                        <li>blogs  ... met lees verder oid</li>
                         <li>hamburgermenu</li>
                         <li className="line-through">cv bereikbaar vanuit over mij pagina</li>
                         <li>cv's aanvullen mindmap / tekstueel / visueel</li>
