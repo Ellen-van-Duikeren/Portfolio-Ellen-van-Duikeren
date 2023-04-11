@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_ellen_van_duikeren/static/css/main.653f0966.css",
+    "main.css": "/portfolio_ellen_van_duikeren/static/css/main.75c3a145.css",
     "main.js": "/portfolio_ellen_van_duikeren/static/js/main.9023ff04.js",
     "static/media/Mindmap Ellen van Duikeren.jpg": "/portfolio_ellen_van_duikeren/static/media/Mindmap Ellen van Duikeren.39bb13b2dae7de9a2492.jpg",
     "static/media/UitkijkpuntNorway.jpg": "/portfolio_ellen_van_duikeren/static/media/UitkijkpuntNorway.4ff60fb53adf33b0e0a8.jpg",
@@ -11,11 +11,11 @@
     "static/media/roodwerk.jpg": "/portfolio_ellen_van_duikeren/static/media/roodwerk.57ea93bf4c6834a596e7.jpg",
     "static/media/wildplukrecepten.jpg": "/portfolio_ellen_van_duikeren/static/media/wildplukrecepten.448b15ef294490bc3229.jpg",
     "index.html": "/portfolio_ellen_van_duikeren/index.html",
-    "main.653f0966.css.map": "/portfolio_ellen_van_duikeren/static/css/main.653f0966.css.map",
+    "main.75c3a145.css.map": "/portfolio_ellen_van_duikeren/static/css/main.75c3a145.css.map",
     "main.9023ff04.js.map": "/portfolio_ellen_van_duikeren/static/js/main.9023ff04.js.map"
   },
   "entrypoints": [
-    "static/css/main.653f0966.css",
+    "static/css/main.75c3a145.css",
     "static/js/main.9023ff04.js"
   ]
 }
