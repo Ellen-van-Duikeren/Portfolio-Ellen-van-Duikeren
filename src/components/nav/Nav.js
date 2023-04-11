@@ -26,11 +26,11 @@ function Nav() {
                     <li>Contact</li>
                 </NavLink>
 
-                <label className="toggle">
-                    <input className="toggle-checkbox" type="checkbox"/>
-                        <div className="toggle-switch"></div>
-                        <span className="toggle-label">Animaties</span>
-                </label>
+                {/*<label className="toggle">*/}
+                {/*    <input className="toggle-checkbox" type="checkbox"/>*/}
+                {/*        <div className="toggle-switch"></div>*/}
+                {/*        <span className="toggle-label">Animaties</span>*/}
+                {/*</label>*/}
 
             </ul>
         </nav>

@@ -1,9 +1,6 @@
 .tile {
     width: 30vw;
     max-width: 350px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     background-color: var(--orange);
     border-radius: 0.5em;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
@@ -11,11 +8,11 @@
 }
 
 .tile--image {
+    width: 30vw;
+    max-width: 350px;
     padding: 1.5em 1.5em 0 1.5em;
     height: 20em;
     object-fit: cover;
-    /*border: 2px solid black;*/
-    /*border-radius: 0.5em;*/
 }
 
 .tile--text {
@@ -23,6 +20,17 @@
     flex-direction: column;
     width: 100%;
     padding: 1.5em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .tile {
+        width: 40vw;
+    }
+
+    .tile--image {
+        width: 40vw;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -31,6 +39,6 @@
     }
 
     .tile--image {
-        max-width: 70vw;
+        width: 70vw;
     }
 }

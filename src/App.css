@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: merriweather, sans-serif;
@@ -38,7 +37,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap:2em;
     justify-content: space-around;
+    margin-left: 1em;
 }
 
 .block {
@@ -171,6 +172,14 @@ a {
 }
 
 /*media query*/
+
+@media only screen and (max-width: 1000px) {
+    body {
+        --baseFont: 14px;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     body {
         --baseFont: 12px;
