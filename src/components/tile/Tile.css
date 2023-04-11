@@ -3,9 +3,11 @@
     max-width: 350px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background-color: var(--orange);
     border-radius: 0.5em;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2em;
 }
 
 .tile--image {
@@ -21,4 +23,14 @@
     flex-direction: column;
     width: 100%;
     padding: 1.5em;
+}
+
+@media only screen and (max-width: 768px) {
+    .tile {
+        width: 80vw;
+    }
+
+    .tile--image {
+        max-width: 70vw;
+    }
 }

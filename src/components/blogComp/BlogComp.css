@@ -12,7 +12,7 @@
     border: transparent;
     border-radius: 0.5em;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
-    font-size: 1em;
+    font-size: var(--baseFont);
     padding: 0.5em;
     width: 8em;
     margin-right: 1em;
