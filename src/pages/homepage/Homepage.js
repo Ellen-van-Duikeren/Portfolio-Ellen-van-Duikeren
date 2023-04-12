@@ -6,7 +6,7 @@ function Homepage() {
     return (
         <div className="page--flex">
             <div className="left-side side__40">
-                <img src={UitkijkpuntNorway} className="photo"/>
+                <img src={UitkijkpuntNorway} className="photo" alt="Stegastein, Noorwegen"/>
                 <p className="photo-caption">Stegastein, Noorwegen, 2022</p>
             </div>
 
@@ -18,7 +18,7 @@ function Homepage() {
                     <li>ben ik op zoek naar werk</li>
                     <li>hoort happy coding bij mij (ik kwam er alleen wat laat achter)</li>
                     <li>hou ik van geometrische patronen</li>
-                    <li>hou ik van kleur bekennen</li>
+                    <li>hou ik van kleuren</li>
                     <li>ben ik zeer leergierig</li>
                     <li>hou ik van verdwalen, reizen en avontuur</li>
                 </ul>

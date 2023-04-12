@@ -1,9 +1,7 @@
 nav {
     font-size: var(--baseFont);
-    margin: 1em auto;
-    margin-left: 1em;
     margin-bottom: 2em;
-    max-width: 1200px;
+    width: 100%;
 }
 
 .nav__ul {

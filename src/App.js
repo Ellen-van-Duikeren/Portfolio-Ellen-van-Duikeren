@@ -9,6 +9,7 @@ import CV from "./pages/cv/CV";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import NavAnimation from "./components/nav-animation/Nav-animation";
+import Klooien from "./pages/klooien/Klooien";
 
 function App() {
     return (
@@ -46,6 +47,10 @@ function App() {
                     element={<Contact/>}/>
                 />
 
+                <Route
+                    path="/klooien"
+                    element={<Klooien/>}
+                />
             </Routes>
 
             <Footer/>

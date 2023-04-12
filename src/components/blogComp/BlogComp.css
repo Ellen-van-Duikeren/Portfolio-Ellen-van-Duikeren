@@ -18,3 +18,10 @@
     margin-right: 1em;
     text-align: center;
 }
+
+/*read moretext*/
+.read-more--text {
+    color: var(--brown);
+    display: inline-block;
+    cursor: pointer;
+}

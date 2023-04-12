@@ -6,15 +6,25 @@ import BlogComp from "../../components/blogComp/BlogComp";
 function Blog() {
     return (
         <div className="page--flex">
-            <div className="left-side side__50">
+            <div className="left-side side__60">
                 <div>
+                    <BlogComp
+                        date="12 april 2023"
+                        title="UseState"
+                        p1="Ik heb even lopen googlen hoe ik een read more and read less kon maken. Het is eigenlijk heel simpel met useState en met slice. Ik heb een useState [show, toggleShow] aangemaakt en deze standaard op false gezet. Pas als je op de tekst 'lees meer'  klikt, zet ik de toggleShow op true. Et voila. It works."
+                        p2="De styling had nog wat voeten in de aarde. Ik was begonnen met een button, maar dit werd niet echt mooi; een beetje too much met ook die button tags er nog bij. Uiteindelijk heb ik er voor gekozen om gewoon de tekst 'lees meer' / 'lees minder' te laten zien en dan in een ander kleurtje, zodat duidelijk is dat je erop kan klikken."
+                        p3="Het lastigste deel was dat ik de tekst 'lees minder' inline wilde hebben met de laatste alinea. Maar vantevoren weet ik niet hoeveel alinea's er zijn in mijn component. Meestal heb ik 2 alinea's in mijn blogs, maar soms ook meer. Ik heb dit opgelost in de blogcomponent door gebruik te maken van een ternary operator. In de ternary vraag ik of er een volgende alinea is. Zo ja, dan laat ik alleen die alinea zien. Zo nee, dan die alinea met de tekst 'lees minder'."
+                        p4="Easy does it"
+                        t1="useState"
+                        t2="lees meer"
+                    />
 
                     <BlogComp
-                    date="11 april 2023"
-                    title="Responsive"
-                    p1="Vandaag een begin gemaakt met het responsive maken van mijn website. Eigenlijk was dit in een 20 minuten voor elkaar doordat ik alle fonts al gerelateerd had aan een basefont en dus alleen deze hoefde aan te passen. Daarnaast nog even de blokken onder elkaar zetten op kleinere schermen i.p.v. naast elkaar en het merendeel is voor elkaar."
-                    p2="Zoals ik eerder al schreef, had ik geprobeerd alle content te centreren, maar was dat nog niet gelukt. Nu was het een klusje van 2 minuten, nadat ik voor het slapen gaan een brainwave kreeg (gebeurt me vaker) en het natuurlijk heel heel simpel bleek. Eigenlijk meer een beginnersdingetje met 'margin 0 auto' voor de '*' in app.css. Oeps."
-                    t1="responsive"
+                        date="11 april 2023"
+                        title="Responsive"
+                        p1="Vandaag een begin gemaakt met het responsive maken van mijn website. Eigenlijk was dit in een 20 minuten voor elkaar doordat ik alle fonts al gerelateerd had aan een basefont en dus alleen deze hoefde aan te passen. Daarnaast nog even de blokken onder elkaar zetten op kleinere schermen i.p.v. naast elkaar en het merendeel is voor elkaar."
+                        p2="Zoals ik eerder al schreef, had ik geprobeerd alle content te centreren, maar was dat nog niet gelukt. Nu was het een klusje van 2 minuten, nadat ik voor het slapen gaan een brainwave kreeg (gebeurt me vaker) en het natuurlijk heel heel simpel bleek. Eigenlijk meer een beginnersdingetje met 'margin 0 auto' in app.css. Oeps."
+                        t1="responsive"
                     />
 
                     <BlogComp
@@ -83,8 +93,8 @@ function Blog() {
                         <li>als animatie aan dan 2e nav met buttons voor animatie</li>
                         <li className="line-through">blog pagina</li>
                         <li className="line-through">blog met tags</li>
-                        <li>blogs  ... met lees verder oid</li>
-                        <li>hamburgermenu</li>
+                        <li className="line-through">blogs inkorten... met mogelijkheid tot 'lees meer'</li>
+                        <li>hamburgermenu on mobile</li>
                         <li className="line-through">cv bereikbaar vanuit over mij pagina</li>
                         <li>cv's aanvullen mindmap / tekstueel / visueel</li>
                         <li>kloppend hart met geluid</li>
