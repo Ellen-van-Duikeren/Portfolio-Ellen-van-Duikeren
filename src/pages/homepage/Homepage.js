@@ -5,7 +5,7 @@ import UitkijkpuntNorway from "../../assets/UitkijkpuntNorway.jpg";
 function Homepage() {
     return (
         <div className="page--flex">
-            <div className="left-side side__40">
+            <div className="left-side side__40 photo--no-show">
                 <img src={UitkijkpuntNorway} className="photo" alt="Stegastein, Noorwegen"/>
                 <p className="photo-caption">Stegastein, Noorwegen, 2022</p>
             </div>

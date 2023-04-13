@@ -5,7 +5,7 @@ import BeachPortugal from "../../assets/BeachPortugal.jpg";
 function Contact() {
     return (
         <div className="page, page--flex">
-            <div className="left-side side__40 block__orange">
+            <div className="left-side side__40 block__orange photo--no-show">
                 <img src={BeachPortugal} alt="Strand, Espinho, Portugal" className="photo"/>
                 <p className="photo-caption">Strand, Espinho, Portugal, 2022</p>
             </div>

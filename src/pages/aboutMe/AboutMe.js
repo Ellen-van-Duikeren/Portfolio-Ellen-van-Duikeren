@@ -41,7 +41,7 @@ function AboutMe() {
             </div>
 
             <div className="right-side side__30">
-                <img src={Avatoon} className="photo"/>
+                <img src={Avatoon} className="photo" alt="avatar Ellen van Duikeren"/>
                 <p className="photo-caption">It's me (ik kon alleen geen groen-blauw-grijze ogen kiezen, jammer)</p>
             </div>
 

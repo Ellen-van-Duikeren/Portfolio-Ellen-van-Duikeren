@@ -1,4 +1,6 @@
 .tile {
+    display: flex;
+    flex-direction: column;
     width: 30vw;
     max-width: 350px;
     background-color: var(--orange);
@@ -40,5 +42,6 @@
 
     .tile--image {
         width: 70vw;
+        padding: 1.5em 0.5em 0 0.5em;
     }
 }

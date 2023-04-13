@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: merriweather, sans-serif;
-    margin: 0;
+    margin: 0 auto;
 }
 
 :root {
@@ -29,8 +29,6 @@ body {
 .page {
     background-color: var(--orange);
     padding: 2em 2em 4em 2em;
-    margin-left: 1em;
-    margin-right: 1em;
 }
 
 .page--flex {
@@ -122,6 +120,7 @@ p {
 li {
     font-size: var(--baseFont);
     line-height: 1.6em;
+    margin-left: 1em;
 }
 
 .line-through {
@@ -179,6 +178,7 @@ a {
 
     .page--flex {
         display: block;
+        margin: 0 auto;
     }
 
     .side__30, .side__40, .side__50, .side__60 {
@@ -188,5 +188,9 @@ a {
     photo {
         max-height: 80vw;
         object-fit: contain;
+    }
+
+    .photo--no-show {
+        display: none
     }
 }
