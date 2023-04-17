@@ -15,7 +15,7 @@ function Homepage() {
                 <h1>Ik ben een junior Fullstack Developer</h1>
                 <p>Zoals je kunt zien op deze website:</p>
                 <ul>
-                    <li>ben ik op zoek naar werk</li>
+                    {/*<li>ben ik op zoek naar werk</li>*/}
                     <li>hoort happy coding bij mij (ik kwam er alleen wat laat achter)</li>
                     <li>hou ik van geometrische patronen</li>
                     <li>hou ik van kleuren</li>

@@ -1,6 +1,10 @@
 import React from 'react';
 import "./Contact.css";
 import BeachPortugal from "../../assets/BeachPortugal.jpg";
+import {IoIosPerson} from "react-icons/io" ;
+import {GoLocation} from "react-icons/go" ;
+import {CiLinkedin} from "react-icons/ci" ;
+import {AiFillGithub} from "react-icons/ai" ;
 
 function Contact() {
     return (
@@ -12,13 +16,13 @@ function Contact() {
 
             <div className="right-side side__40">
                 <h1>Contact</h1>
-                <ul>
-                    <p>Zoek je een enthousiaste fullstack developer, neem dan contact met mij op:</p>
-                    <li>Ellen van Duikeren</li>
-                    <li>Woonplaats: Haarlem</li>
+                <ul className="ul--no-point">
+                    {/*<p>Zoek je een enthousiaste fullstack developer, neem dan contact met mij op:</p>*/}
+                    <li><IoIosPerson/> Ellen van Duikeren</li>
+                    <li><GoLocation/> Woonplaats: Haarlem</li>
                     <li>✉ e.vanduikeren@gmail.com</li>
-                    <li>https://www.linkedin.com/in/ellen-van-duikeren/</li>
-                    <li>https://github.com/Ellen-van-Duikeren</li>
+                    <li><CiLinkedin/> https://www.linkedin.com/in/ellen-van-duikeren/</li>
+                    <li><AiFillGithub/> https://github.com/Ellen-van-Duikeren</li>
                 </ul>
             </div>
         </div>

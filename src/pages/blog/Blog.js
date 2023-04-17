@@ -2,7 +2,6 @@ import React from 'react';
 import "./Blog.css";
 import BlogComp from "../../components/blogComp/BlogComp";
 
-
 function Blog() {
     return (
         <div className="page--flex">
@@ -11,7 +10,7 @@ function Blog() {
                     <BlogComp
                         date="13 april 2023"
                         title="Hamburgermenu"
-                        p1="Ik kan me er echt aan storen, als de lay out gewoon niet mooi is, zoals een navigatiemenu dat eigenlijk niet past op een mobile version; dan zie je van die links naast en onder elkaar, gewrapt en dus niet mooi uitgelijnd. Brrr. Vandaag heb ik dan ook een hamburgermenu gemaakt voor de mobile version; je kent ze wel. Alhoewel, een van de kunstenaars voor wie ik een wordpress website maakte, kende deze term nog niet. Gelukkig heb ik het kennelijk zo vaak over het hamburgermenu gehad, dat ze me vertelde, dat ze mij nu steeds 'hamburgermenu' hoort zeggen in haar hoofd, als ze nu zelf aan haar website werkt."
+                        p1="Ik kan me er echt aan storen als de lay out gewoon niet mooi is, zoals een navigatiemenu dat eigenlijk niet past op een mobile version; dan zie je van die links naast en onder elkaar, gewrapt en dus niet mooi uitgelijnd. Brrr. Vandaag heb ik dan ook een hamburgermenu gemaakt voor de mobile version; je kent ze wel. Alhoewel, een van de kunstenaars voor wie ik een wordpress website maakte, kende deze term nog niet. Gelukkig heb ik het kennelijk zo vaak over het hamburgermenu gehad, dat ze me vertelde, dat ze mij nu steeds 'hamburgermenu' hoort zeggen in haar hoofd, als ze nu zelf aan haar website werkt."
                         p2="Ik had een hele duidelijke you tube video voor het maken van het hamburgermenu: 'https://youtu.be/Et5tDPoU03c'. Ik had er nog nooit een gemaakt, maar eigenlijk had ik alle ingredienten die ik hiervoor nodig had, in mijn bootcamp full stack opleiding gehad. Mooi."
                         t1="hamburger"
                         t2="useState"
@@ -36,7 +35,7 @@ function Blog() {
                         date="11 april 2023"
                         title="Responsive"
                         p1="Vandaag een begin gemaakt met het responsive maken van mijn website. Eigenlijk was dit in een 20 minuten voor elkaar doordat ik alle fonts al gerelateerd had aan een basefont en dus alleen deze hoefde aan te passen. Daarnaast nog even de blokken onder elkaar zetten op kleinere schermen i.p.v. naast elkaar en het merendeel is voor elkaar."
-                        p2="Zoals ik eerder al schreef, had ik geprobeerd alle content te centreren, maar was dat nog niet gelukt. Nu was het een klusje van 2 minuten, nadat ik voor het slapen gaan een brainwave kreeg (gebeurt me vaker) en het natuurlijk heel heel simpel bleek. Eigenlijk meer een beginnersdingetje met 'margin 0 auto' in app.css. Oeps."
+                        p2="Zoals ik eerder al schreef, had ik geprobeerd alle content te centreren, maar was dat nog niet gelukt. Nu was het een klusje van 2 minuten, nadat ik voor het slapen gaan een brainwave kreeg (gebeurt me vaker) en het natuurlijk heel heel simpel bleek. Eigenlijk meer een beginnersdingetje met 'margin 0 auto'. Oeps."
                         t1="responsive"
                         t2="@media"
                     />
@@ -67,7 +66,7 @@ function Blog() {
                         p1="Vandaag gewerkt aan de blog pagina. Ik heb twee blogs geschreven, waarvoor ik een component blogtile gebruik en alvast een ruimte gecreeerd voor het maken van een archief. Tenslotte heb ik een lijst gemaakt met ideeen wat ik allemaal nog wil toevoegen of veranderen aan mijn bestaande website. Er zitten gekke, maar ook awesome ideeen tussen."
                         p2="Ik heb mijn css verder uitgebouwd. Ik merkte dat ik toch wel vaak een oranje vlak nodig heb met afgeronde hoeken en schaduw. Omdat ik blijf vergeten hoe dat moet met die schaduw, moest ik die steeds kopieren. Maar dat heb ik nu opgelost door een className block te maken."
                         p3="Qua structuur van mijn website heb ik weinig veranderd. Ik heb alleen de nieuwe pagina blog toegevoegd aan de nav en de app. Ik heb wat lopen stoeien met css, omdat ik graag alles in het midden uitgelijnd wil hebben bij grotere schermen en een max width van 1200 px, maar dat is nog niet helemaal gelukt. Die 1200px komt op meerdere plekken voor en dat moet anders en het uitlijnen, mmmm, daar moet ik ook nog even verder naar kijken. Soms denk ik dat ik dingen echt snap, maar flexbox heeft me al meerdere keren verrast. Ooit doorgrond ik het helemaal."
-                        p4="Tenslotte heb ik het nog mogelijk gemaakt om react icosn toe te voegen met npm install react-icons --save. Ik heb ergens een smiley nodig, maar ik zie zo'n ijst met icons ook als een soort snoepdoos. Lekker scrollen om te kijken welke ik nu zal kiezen. "
+                        p4="Tenslotte heb ik het nog mogelijk gemaakt om react icons toe te voegen met npm install react-icons --save. Ik heb ergens een smiley nodig, maar ik zie zo'n ijst met icons ook als een soort snoepdoos. Lekker scrollen om te kijken welke ik nu zal kiezen. "
 
                         t1="blog"
                         t2="shadow"
@@ -97,10 +96,9 @@ function Blog() {
                     <h3>Ideeen in willekeurige volgorde</h3>
                     <ol>
                         <li className="line-through">hosten google / github / gitpages / netlify?</li>
-                        <li>responsive maken</li>
+                        <li className="line-through">responsive maken</li>
                         <li className="line-through">foto avatar van mijzelf</li>
                         <li>pop ups component</li>
-                        <li>projecten pagina, minder info en pop ups maken / lees meer</li>
                         <li>schakelaar animatie on/off</li>
                         <li>homepage aanpassen met transparanter naar het midden</li>
                         <li>homepage fly in naam</li>
@@ -117,6 +115,7 @@ function Blog() {
                         <li className="line-through">icoon react vervangen</li>
                         <li>games wildplukken? hearts?</li>
                         <li>zoekfunctie voor blog, obv tags/datum?</li>
+                        <li>versie maken met andere, minder heftige, kleuren</li>
                     </ol>
                 </div>
             </div>

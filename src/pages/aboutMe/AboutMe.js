@@ -10,33 +10,24 @@ function AboutMe() {
         const navigate = useNavigate();
 
     return (
-        <div class="page--flex">
+        <div className="page--flex">
 
             <div className="left-side side__50">
                 <h1>Over mij</h1>
-                <p>Coderen doe ik al van jongs af aan; al voor het digitale tijdperk <SlEmotsmile />. Mijn brede interesse, mijn
-                    creativiteit, mijn analytische inslag, hebben allemaal bijgedragen tot mijn huidige carrière als
-                    fullstack developer. Mijn bijzondere werkgeschiedenis toont mijn flexibiliteit aan, mijn
-                    leergierigheid.
-                    Ik kan daardoor ook makkelijk verbanden leggen met andere vakgebieden.</p>
-                <p>Ik krijg veel energie van het schrijven en bewerken van code, van het oplossen van al die kleine
-                    puzzels,
-                    van het creatieve proces. Ik ben positief, heb een mentaliteit van: we doen het en we doen het
-                    samen.
-                    Daarnaast zet ik mij graag in voor een duurzame samenleving.</p>
-                <p>Programma's: HTML/CSS, Javascript, React, Wordpress, Java, Spring Boot, Maven, Postman, PostgreSQL,
-                    IntelliJ, WebStorm, Github, Visual paradigm, Figma.</p>
-                <Button
-                    type="button"
-                    onClick={() => navigate("/cv")}>
-                    Mijn CV
-                </Button>
+               <p>Sinds kort ben ik full stack developer en mag ik happy coden, zoals ze dat zo mooi zeggen. De hele dag puzzeltjes oplossen, heerlijk. Ik ben super leergierig en heb dan ook een ongebruikelijke carriere achter de rug. Hiervoor heb ik 13 jaar als klinisch verloskundige gewerkt (niets is zo mooi als een nieuw leven op de wereld zetten) en daarvoor als civiel technisch beleidsmedewerker bij een waterleidingbedrijf. Je snapt het al, ik hou van leren, lezen, nadenken, puzzelen en coding.</p>
+                <p>In mijn vrij tijd wandel ik graag alleen door de natuur. Ik kom regelmatig in het Koningshof, wat 10 minuutjes bij mij vandaan is op de fiets. Heerlijk al die bossen, duinen en zee in de buurt. Ik kan er mijn hoofd legen en lekker genieten van de rust, van de vogel- en wind-door-de-bladerengeluiden.</p>
+                <p>Daarnaast ben ik druk met wildplukken. Ik doe een opleiding bij <a href='https://www.natuurkok.nl' target="_blank" rel="noreferrer"> de natuurkok</a>, waar ik planten leer herkennen en leer wat te oogsten en hoe klaar te maken. Op vuur natuurlijk, of met de dutch oven. Ik vind het geweldig om tijdens die weekenden te kamperen onder m'n tarp (alhoewel soms ook afzien), dichtbij buiten, in sync met de seizoenen en met mooie gesprekken rondom het houtvuur.</p>
+                {/*<Button*/}
+                {/*    type="button"*/}
+                {/*    onClick={() => navigate("/cv")}>*/}
+                {/*    Mijn CV*/}
+                {/*</Button>*/}
 
                 <ul className="margin-top1">
+                    <li>Ik hou van puzzeltjes oplossen</li>
                     <li>Ik hou van water (drinkwater, vruchtwater,...)</li>
-                    <li>Ik hou van structuur</li>
-                    <li>Ik hou van samenwerken</li>
-                    <li>Ik hou van buiten zijn (maar doe dat veel te weinig)</li>
+                    <li>Ik hou van samen / -zijn / -werken</li>
+                    <li>Ik hou van buiten zijn (maar doe dat nog steeds veel te weinig)</li>
                 </ul>
             </div>
 
