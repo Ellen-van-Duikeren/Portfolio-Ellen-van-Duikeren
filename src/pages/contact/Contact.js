@@ -8,13 +8,14 @@ import {AiFillGithub} from "react-icons/ai" ;
 
 function Contact() {
     return (
-        <div className="page, page--flex">
-            <div className="left-side side__40 block__orange photo--no-show">
+        <div className="page--flex">
+
+            <div className="left-side side__45 block__orange photo--no-show">
                 <img src={BeachPortugal} alt="Strand, Espinho, Portugal" className="photo"/>
                 <p className="photo-caption">Strand, Espinho, Portugal, 2022</p>
             </div>
 
-            <div className="right-side side__40">
+            <div className="right-side side__45">
                 <h1>Contact</h1>
                 <ul className="ul--no-point">
                     {/*<p>Zoek je een enthousiaste fullstack developer, neem dan contact met mij op:</p>*/}

@@ -1,0 +1,9 @@
+.background-image--photo {
+    background-image: url("../../assets/UitkijkpuntNorway.jpg");
+    width: 100vw;
+    height:100vh;
+    object-fit: cover;
+    margin-top: -2.7em;
+    color: black;
+    text-align: center;
+}

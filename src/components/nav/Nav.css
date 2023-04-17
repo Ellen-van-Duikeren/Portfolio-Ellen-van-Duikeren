@@ -1,7 +1,7 @@
 nav {
     font-size: var(--baseFont);
     margin-bottom: 2em;
-    width: 100%;
+    width: 100vw;
     height: 4em;
 }
 

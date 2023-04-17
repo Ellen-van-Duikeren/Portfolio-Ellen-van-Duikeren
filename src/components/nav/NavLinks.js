@@ -9,26 +9,36 @@ const NavLinks = ({isMobile, closeMobileMenu}) => {
             onClick={() => isMobile && closeMobileMenu()}>
                 <li>Home</li>
             </NavLink>
+
             <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/about-me"
                      onClick={() => isMobile && closeMobileMenu()}>
                                 <li>Over mij</li>
             </NavLink>
+
             {/*<NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'}  to="/cv"
                         onClick={() => isMobile && closeMobileMenu()}>*/}
             {/*    <li>Mijn CV</li>*/}
             {/*</NavLink>*/}
+
             <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/projects"
                      onClick={() => isMobile && closeMobileMenu()}>
             <li>Projecten</li>
             </NavLink>
+
             <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/blog"
                      onClick={() => isMobile && closeMobileMenu()}>
             <li>Blog</li>
             </NavLink>
+
             <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/contact"
                      onClick={() => isMobile && closeMobileMenu()}>
             <li>Contact</li>
             </NavLink>
+
+            {/*<NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/onePagePortfolio"*/}
+            {/*         onClick={() => isMobile && closeMobileMenu()}>*/}
+            {/*    <li>One-page-portfolio</li>*/}
+            {/*</NavLink>*/}
 
             {/*<label className="toggle">*/}
             {/*    <input className="toggle-checkbox" type="checkbox"/

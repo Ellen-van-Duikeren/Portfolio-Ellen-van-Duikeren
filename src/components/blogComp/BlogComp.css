@@ -8,8 +8,8 @@
 
 .tag {
     display: inline-block;
+    vertical-align: middle;
     background-color: var(--orange);
-    border: transparent;
     border-radius: 0.5em;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
     font-size: var(--baseFont);
@@ -17,6 +17,12 @@
     width: 8em;
     margin-right: 1em;
     text-align: center;
+    margin-bottom: 1em;
+}
+
+.blog__image {
+    width: 100%;
+    border: 5px solid white;
 }
 
 /*read moretext*/

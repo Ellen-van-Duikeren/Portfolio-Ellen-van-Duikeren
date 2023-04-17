@@ -8,8 +8,8 @@ import Contact from "./pages/contact/Contact";
 import CV from "./pages/cv/CV";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
-import NavAnimation from "./components/nav-animation/Nav-animation";
 import Klooien from "./pages/klooien/Klooien";
+import OnePagePortfolio from "./pages/onePagePortfolio/OnePagePortfolio";
 
 function App() {
     return (
@@ -51,6 +51,12 @@ function App() {
                     path="/klooien"
                     element={<Klooien/>}
                 />
+
+                <Route
+                    path="/onePagePortfolio"
+                    element={<OnePagePortfolio/>}
+                />
+
             </Routes>
 
             <Footer/>

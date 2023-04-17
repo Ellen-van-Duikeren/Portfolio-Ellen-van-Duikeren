@@ -10,10 +10,10 @@ function Tile({nameImg, alt, title, url, description, languages, date}) {
 
             <div className="tile--text">
                 <h3>{title}</h3>
-                <p><a href={url} target="_blank" rel="noreferrer">{url}</a></p>
-                <p>{date}</p>
-                <p>{description}</p>
-                <p>{languages}</p>
+                <p className="margin-bottom1"><a href={url} target="_blank" rel="noreferrer">{url}</a></p>
+                <p className="margin-bottom1">{date}</p>
+                <p className="margin-bottom1">{description}</p>
+                <p className="margin-bottom1">{languages}</p>
             </div>
 
         </div>

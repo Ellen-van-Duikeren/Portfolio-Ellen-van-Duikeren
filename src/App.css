@@ -21,21 +21,20 @@ body {
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    margin: 0 auto;
 }
 
 .page {
     background-color: var(--orange);
     padding: 2em 2em 4em 2em;
+    margin: 0 1em;
 }
 
 .page--flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2em;
-    justify-content: space-around;
+    /*gap: 2em;*/
+    justify-content: space-evenly;
 }
 
 .block {
@@ -70,6 +69,10 @@ body {
 
 .side__40 {
     width: 40vw;
+}
+
+.side__45 {
+    width: 45vw;
 }
 
 .side__50 {
@@ -113,7 +116,6 @@ h3 {
 p {
     font-size: var(--baseFont);
     line-height: 1.5em;
-    margin-bottom: 1em;
 }
 
 li {
