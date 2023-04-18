@@ -21,7 +21,7 @@ function AboutMe() {
 
                 <ul className="margin-top1">
                     <li>Ik hou van puzzeltjes oplossen</li>
-                    <li>Ik hou van water (drinkwater, vruchtwater,...)</li>
+                    <li>Ik hou van water (drinkwater, vruchtwater, regenwater,...)</li>
                     <li>Ik hou van samen / -zijn / -werken</li>
                     <li>Maar ik hou zeker ook van alleen zijn</li>
                     <li>Ik hou van buiten zijn (maar doe dat nog steeds veel te weinig)</li>

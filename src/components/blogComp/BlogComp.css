@@ -25,6 +25,12 @@
     border: 5px solid white;
 }
 
+.anchortag--brown {
+    color: var(--brown);
+    font-size: var(--baseFont);
+}
+
+
 /*read moretext*/
 .read-more--text {
     color: var(--brown);

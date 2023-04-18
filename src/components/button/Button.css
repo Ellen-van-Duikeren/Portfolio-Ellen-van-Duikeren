@@ -16,8 +16,13 @@ button {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
 }
 
-.button--ellips-yellow {
+.button--brown {
     background-color: var(--brown);
+}
+
+.button--orange {
+    background-color: var(--orange);
+    color: black;
 }
 
 .button--large {

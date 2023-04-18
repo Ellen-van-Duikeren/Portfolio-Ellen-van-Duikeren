@@ -10,12 +10,17 @@ import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Klooien from "./pages/klooien/Klooien";
 import OnePagePortfolio from "./pages/onePagePortfolio/OnePagePortfolio";
+import Rain from "./pages/rain/Rain";
+import NavAnimation from "./components/nav/NavAnimation";
 
-function App() {
+function App({animation}) {
     return (
         <div>
             <Nav/>
-            {/*<NavAnimation/>*/}
+
+            {animation && <NavAnimation/>}
+
+
             <Routes>
                 <Route
                     path="/"
@@ -57,6 +62,10 @@ function App() {
                     element={<OnePagePortfolio/>}
                 />
 
+                <Route
+                    path="/rain"
+                    element={<Rain/>}
+                />
             </Routes>
 
             <Footer/>
