@@ -54,7 +54,6 @@ nav .active-menu-link {
     .mobileNavigation {
         display: flex;
         flex-direction: column;
-        /*align-content: center;*/
         height: 4em;
         width: 100%;
     }
@@ -66,14 +65,22 @@ nav .active-menu-link {
         background-color: var(--orange);
         padding: 0.8em;
         position: absolute;
-        top: 2.5em;
+        top: 2.4em;
         left: 30%;
         width: 40%;
         border: transparent;
         border-radius: 0.5em;
         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+        z-index: 999;
+
+    }
+
+    .mobileNavigation li {
+        margin-top: 1em;
+        font-size: calc(var(--baseFont) * 1.2);
     }
 }
+
 
 
 /*animations slider*/

@@ -9,9 +9,6 @@ function Homepage() {
 
     return (
         <div className="homepage block__orange">
-
-
-            {/*<div class="page right-side side__40">*/}
             <div>
                 <h1 className="slideLeft">Hoi, ik ben <span>Ellen van Duikeren</span></h1>
                 <h1 className="slideLeftRetarded">Ik ben een junior Fullstack Developer</h1>

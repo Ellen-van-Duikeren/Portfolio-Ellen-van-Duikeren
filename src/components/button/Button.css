@@ -22,5 +22,5 @@ button {
 
 .button--large {
     font-size: 0.9em;
-    width: 16em;
+    width: fit-content;
 }

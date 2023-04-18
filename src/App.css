@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
 * {
-    padding: 0;
     box-sizing: border-box;
-    font-family: merriweather, sans-serif;
+    padding: 0;
     margin: 0 auto;
+    font-family: merriweather, sans-serif;
 }
 
 :root {
@@ -25,15 +25,12 @@ body {
 
 .page {
     background-color: var(--orange);
-    padding: 2em 2em 4em 2em;
-    margin: 0 1em;
 }
 
 .page--flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*gap: 2em;*/
     justify-content: space-evenly;
 }
 
@@ -87,6 +84,10 @@ body {
 .photo {
     width: 100%;
     padding: 1em;
+}
+
+.photo--no-show-on-pc {
+    display: none
 }
 
 .photo-caption {
@@ -182,16 +183,19 @@ a {
         margin: 0 auto;
     }
 
-    .side__30, .side__40, .side__50, .side__60 {
-        width: 80vw;
+    .side__30, .side__40, .side__45, .side__50, .side__60 {
+        width: 90vw;
     }
 
-    photo {
-        max-height: 80vw;
+    .photo {
         object-fit: contain;
     }
 
     .photo--no-show {
-        display: none
+        display: none;
+    }
+
+    .photo--no-show-on-pc {
+        display: block;
     }
 }

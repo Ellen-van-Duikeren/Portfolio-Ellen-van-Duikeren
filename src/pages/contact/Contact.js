@@ -26,6 +26,11 @@ function Contact() {
                     <li><AiFillGithub/> https://github.com/Ellen-van-Duikeren</li>
                 </ul>
             </div>
+
+            <div className="left-side side__45 block__orange photo--no-show-on-pc">
+                <img src={BeachPortugal} alt="Strand, Espinho, Portugal" className="photo"/>
+                <p className="photo-caption">Strand, Espinho, Portugal, 2022</p>
+            </div>
         </div>
 
     );

@@ -35,3 +35,10 @@
         transform: translateX(0%);
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .homepage {
+        width: 90vw;
+        padding: 1em;
+    }
+}

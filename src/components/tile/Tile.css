@@ -37,11 +37,11 @@
 
 @media only screen and (max-width: 768px) {
     .tile {
-        width: 80vw;
+        width: 90vw;
     }
 
     .tile--image {
-        width: 70vw;
-        padding: 1.5em 0.5em 0 0.5em;
+        width: 80vw;
+        padding: 1.5em 1em 0 1em;
     }
 }

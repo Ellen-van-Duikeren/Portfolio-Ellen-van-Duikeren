@@ -68,7 +68,7 @@ function Blog() {
                         <li>blog pagina: als op link in archief geklikt, dan automatisch hele blog ipv lees meer</li>
                         <li>archief blogs in mobile version bovenaan aan te klikken button</li>
                         <li>10 meest recente posts tonen en dan button voor meer posts of voor volgende 10</li>
-                        <li>blog, zoeken op tags</li>
+                        <li>blog, zoeken (door te klikken?) op tags</li>
                         <li>blogs, zoeken op datum</li>
                         <li>versie maken met andere, minder heftige, kleuren, met usecontext?</li>
                         <li>uitzoeken hoe ik link kan opnemen in p tekst van Blogcomponent</li>
