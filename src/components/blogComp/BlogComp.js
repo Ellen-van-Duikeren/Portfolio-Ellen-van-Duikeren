@@ -44,7 +44,8 @@ function BlogComp({
                         <p className="margin-bottom1">{p2}
                             <span
                                 className="read-more--text"
-                                onClick={() => toggleShow(false)}>lees minder
+                                onClick={() => toggleShow(false)}>
+                                lees minder
                             </span>
                         </p>
                         :

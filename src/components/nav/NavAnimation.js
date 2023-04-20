@@ -17,21 +17,21 @@ function NavAnimation() {
                     let it rain
                 </button>
 
-                <button
-                    type="button"
-                    className="button button--large button--brown"
-                    // onClick={() => <Rain/>}
-                >
-                    animatie2
-                </button>
+                {/*<button*/}
+                {/*    type="button"*/}
+                {/*    className="button button--large button--brown"*/}
+                {/*    // onClick={() => <Rain/>}*/}
+                {/*>*/}
+                {/*    animatie2*/}
+                {/*</button>*/}
 
-                <button
-                    type="button"
-                    className="button button--large button--brown"
-                    // onClick={() => <Rain/>}
-                >
-                    animatie3
-                </button>
+                {/*<button*/}
+                {/*    type="button"*/}
+                {/*    className="button button--large button--brown"*/}
+                {/*    // onClick={() => <Rain/>}*/}
+                {/*>*/}
+                {/*    animatie3*/}
+                {/*</button>*/}
             </div>
     );
 }

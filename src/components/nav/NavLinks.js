@@ -50,19 +50,21 @@ const NavLinks = ({isMobile, closeMobileMenu}) => {
                 {/*    <li>One-page-portfolio</li>*/}
                 {/*</NavLink>*/}
 
-                <label className="toggle">
-                    <input
-                        className="toggle-checkbox"
-                        type="checkbox"
-                        onClick={() => {
-                            isMobile && closeMobileMenu()
-                            toggleAnimation(!animation)
-                        }
-                        }
-                    />
-                    <div className="toggle-switch"></div>
-                    <span className="toggle-label">Animaties</span>
-                </label>
+                <div className="button-animations">
+                    <label className="toggle">
+                        <input
+                            className="toggle-checkbox"
+                            type="checkbox"
+                            onClick={() => {
+                                isMobile && closeMobileMenu()
+                                toggleAnimation(!animation)
+                            }
+                            }
+                        />
+                        <div className="toggle-switch"></div>
+                        <span className="toggle-label">Animaties</span>
+                    </label>
+                </div>
 
             </ul>
 

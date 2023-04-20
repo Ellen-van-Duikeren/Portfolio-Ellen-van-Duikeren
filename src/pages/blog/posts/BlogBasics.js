@@ -11,7 +11,7 @@ const BlogBasics = () => {
             t1="statisch"
             t2="routes"
             t3=":root"
-            t4="components"
+            t4="component"
         />
     );
 };

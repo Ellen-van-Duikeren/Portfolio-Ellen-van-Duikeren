@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
 
+
+.borderred {
+    border: 2px solid red;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -131,6 +136,7 @@ li {
 /*anchor tags.................................................*/
 a {
     color: black;
+    font-size: var(--baseFont);
 }
 
 /*margin.....................................................*/

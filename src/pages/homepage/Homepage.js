@@ -2,10 +2,10 @@ import React from 'react';
 import "./Homepage.css";
 import "../../components/button/Button.css"
 import UitkijkpuntNorway from "../../assets/UitkijkpuntNorway.jpg";
-import {useNavigate} from "react-router-dom";
+// import {useNavigate} from "react-router-dom";
 
 function Homepage() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     return (
         <div className="homepage block__orange">
@@ -13,7 +13,7 @@ function Homepage() {
                 <h1 className="slideLeft">Hoi, ik ben <span>Ellen van Duikeren</span></h1>
                 <h1 className="slideLeftRetarded">Ik ben een junior Fullstack Developer</h1>
 
-                <p>Dit portfolio heb ik gemaakt om mijn werk te kunnen tonen. Daarnaast vind ik het geweldig om bezig te zijn met de frontend en om iets te maken dat helemaal <strong>bij mij</strong> past. Tenslotte ga ik het ook gebruiken om dingen uit te proberen; je leest hierover op mijn blog pagina.</p>
+                <p>Dit portfolio heb ik gemaakt om mijn werk te kunnen laten zien. Daarnaast vind ik het geweldig om bezig te zijn met de frontend en om iets te maken dat helemaal <strong>bij mij</strong> past. Tenslotte ga ik het ook gebruiken om dingen uit te proberen; je leest hierover in mijn blog.</p>
 
                 <p className="margin-top2">Zoals je kunt zien op deze website:</p>
                 <ul>
@@ -31,16 +31,16 @@ function Homepage() {
                 <p className="photo-caption">Stegastein, Noorwegen, 2022</p>
             </div>
 
-            <div className="margin-top2">
-                <p>PS: Als experiment en om meer aan te sluiten bij modernere websites, ben ik ook bezig een one-page-portfolio te maken. </p>
-                <button
-                    type="button"
-                    className="button button--large margin-top1"
-                    onClick={() => navigate("/onePagePortfolio")}
-                >
-                    one page portfolio
-                </button>
-            </div>
+            {/*<div className="margin-top2">*/}
+            {/*    <p>PS: Als experiment en om meer aan te sluiten bij modernere websites, ben ik ook bezig een one-page-portfolio te maken. </p>*/}
+            {/*    <button*/}
+            {/*        type="button"*/}
+            {/*        className="button button--large margin-top1"*/}
+            {/*        onClick={() => navigate("/onePagePortfolio")}*/}
+            {/*    >*/}
+            {/*        one page portfolio*/}
+            {/*    </button>*/}
+            {/*</div>*/}
         </div>
     );
 }

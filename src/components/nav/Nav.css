@@ -2,7 +2,7 @@ nav {
     font-size: var(--baseFont);
     margin-bottom: 3em;
     width: 100vw;
-    height: 3em;
+    /*height: 3em;*/
 }
 
 nav ul {
@@ -93,6 +93,11 @@ nav .active-menu-link {
     .mobileNavigation li {
         margin-top: 1em;
         font-size: calc(var(--baseFont) * 1.2);
+    }
+
+    .button-animations {
+        display: none;
+        border: 2px red solid;
     }
 }
 

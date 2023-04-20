@@ -1,0 +1,14 @@
+/*show archive posts on mobile version in top and as drop down menu*/
+.blogArchiveMobile {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .blogArchivePC {
+        display: none;
+    }
+
+    .blogArchiveMobile {
+        display: block;
+    }
+}
