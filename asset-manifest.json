@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio_ellen_van_duikeren/static/css/main.f18a1bbe.css",
-    "main.js": "/portfolio_ellen_van_duikeren/static/js/main.df0c3c63.js",
+    "main.css": "/portfolio_ellen_van_duikeren/static/css/main.60ed8153.css",
+    "main.js": "/portfolio_ellen_van_duikeren/static/js/main.8d3393bb.js",
     "static/media/Mindmap Ellen van Duikeren.jpg": "/portfolio_ellen_van_duikeren/static/media/Mindmap Ellen van Duikeren.39bb13b2dae7de9a2492.jpg",
     "static/media/ScreenshotHomepageOld.png": "/portfolio_ellen_van_duikeren/static/media/ScreenshotHomepageOld.e18a019970e66db9eed3.png",
     "static/media/UitkijkpuntNorway.jpg": "/portfolio_ellen_van_duikeren/static/media/UitkijkpuntNorway.4ff60fb53adf33b0e0a8.jpg",
-    "static/media/TilesPortugal.jpg": "/portfolio_ellen_van_duikeren/static/media/TilesPortugal.85a7263c59b235cb4889.jpg",
+    "static/media/TilesPortugalCropped (Small).jpg": "/portfolio_ellen_van_duikeren/static/media/TilesPortugalCropped (Small).4af6185806762a72f05b.jpg",
     "static/media/Avatoon bijgewerkt.jpg": "/portfolio_ellen_van_duikeren/static/media/Avatoon bijgewerkt.a12f48e4e06fedf046fa.jpg",
     "static/media/BeachPortugal.jpg": "/portfolio_ellen_van_duikeren/static/media/BeachPortugal.4c8ee051eee8580bf185.jpg",
     "static/media/jokenoordstrand.jpg": "/portfolio_ellen_van_duikeren/static/media/jokenoordstrand.30c5eff4848226e1b315.jpg",
     "static/media/roodwerk.jpg": "/portfolio_ellen_van_duikeren/static/media/roodwerk.57ea93bf4c6834a596e7.jpg",
     "static/media/wildplukrecepten.jpg": "/portfolio_ellen_van_duikeren/static/media/wildplukrecepten.448b15ef294490bc3229.jpg",
     "index.html": "/portfolio_ellen_van_duikeren/index.html",
-    "main.f18a1bbe.css.map": "/portfolio_ellen_van_duikeren/static/css/main.f18a1bbe.css.map",
-    "main.df0c3c63.js.map": "/portfolio_ellen_van_duikeren/static/js/main.df0c3c63.js.map"
+    "main.60ed8153.css.map": "/portfolio_ellen_van_duikeren/static/css/main.60ed8153.css.map",
+    "main.8d3393bb.js.map": "/portfolio_ellen_van_duikeren/static/js/main.8d3393bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f18a1bbe.css",
-    "static/js/main.df0c3c63.js"
+    "static/css/main.60ed8153.css",
+    "static/js/main.8d3393bb.js"
   ]
 }
