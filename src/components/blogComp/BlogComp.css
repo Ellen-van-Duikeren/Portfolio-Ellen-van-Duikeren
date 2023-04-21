@@ -21,8 +21,7 @@
 }
 
 .blog__image {
-    width: 100%;
-    border: 5px solid white;
+    border: 5px solid var(--lightgray);
 }
 
 .anchortag--brown {

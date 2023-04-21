@@ -7,7 +7,8 @@ const BlogHomepage = () => {
         <BlogComp
             date="17 april 2023"
             title="Homepage"
-            src1={screenshotOldHomepage}
+            src={screenshotOldHomepage}
+            width="100%"
             alt="Old homepage with photo on the left and text on the rigth side"
             p1="De oude homepage zag er een beetje blokkerig uit en erg lijkend op de meeste andere pagina's met aan de ene kant een foto en aan de andere kant tekst. Dat kon natuurlijk mooier, eleganter en dynamischer. Ik heb er nu voor gekozen om gewoon één blok te nemen over 60% van de pagina. De nav en footer heb ik 100vw gemaakt, zodat ze een duidelijke markering zijn van het begin en einde van de pagina."
             p2="Om de aandacht op mijn naam en functie te leggen, laat ik deze invliegen. Ze komen van rechts naar links mijn homepage op, waarbij mijn functie anderhalf keer zo lang hierover doet dan mijn naam. Je aandacht wordt er direct naartoe getrokken. Met webcode tools op 'https://webcode.tools/generators/css/keyframe-animation' maak je heel makkelijk zelf animaties, zelfs zonder kennis van css."

@@ -6,7 +6,8 @@ import {SlArrowUpCircle} from "react-icons/sl";
 function BlogComp({
                       date,
                       title,
-                      src1,
+                      src,
+                      width,
                       alt,
                       p1,
                       p2,
@@ -30,10 +31,10 @@ function BlogComp({
     const [show, toggleShow] = useState(false);
 
     return (
-        <div className="block blog" id="toTopOfPage">
+        <div className="block blog">
             <p>{date}</p>
             <h3 className="margin-top1">{title}</h3>
-            {src1 && <img src={src1} className="blog__image margin-bottom1" alt={alt}/>}
+            {src && <img src={src} className="blog__image margin-bottom1" alt={alt} width={width}/>}
 
             {/*text*/}
             {show ?

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./AboutMe.css";
-import Avatoon from "../../assets/Avatoon bijgewerkt.jpg";
+import AvatarEllen from "../../assets/AvatarEllen.jpg";
 
 
 function AboutMe() {
@@ -11,7 +11,7 @@ function AboutMe() {
             <div className="left-side side__50">
                 <h1>Over mij</h1>
                 <h3>Carrière</h3>
-               <p className="margin-bottom1">Sinds maart 2023 ben ik full stack developer en mag ik happy coden, zoals ze dat zo mooi zeggen. De hele dag puzzeltjes oplossen, heerlijk. Ik ben super leergierig en heb dan ook een ongebruikelijke carriere achter de rug. Hiervoor heb ik 13 jaar als klinisch verloskundige gewerkt (niets is zo mooi als een nieuw leven op de wereld zetten) en daarvoor als civiel technisch beleidsmedewerker bij een waterleidingbedrijf. Je snapt het al, ik hou van leren, lezen, nadenken, puzzelen en coding.</p>
+               <p className="margin-bottom1">Sinds maart 2023 ben ik full stack developer en mag ik happy coden. De hele dag puzzeltjes oplossen, heerlijk. Ik ben super leergierig en heb dan ook een ongebruikelijke carriere achter de rug. Hiervoor heb ik 13 jaar als klinisch verloskundige gewerkt (niets is zo mooi als een nieuw leven op de wereld zetten) en daarvoor als civiel technisch beleidsmedewerker bij een waterleidingbedrijf. Je snapt het al, ik hou van leren, lezen, nadenken, puzzelen en coding.</p>
 
                 <h3>Natuur</h3>
                 <p className="margin-bottom1">In mijn vrij tijd wandel ik graag alleen door de natuur. Ik kom regelmatig in het Koningshof, wat 10 minuutjes bij mij vandaan is op de fiets. Heerlijk al die bossen, duinen en zee in de buurt. Ik kan er mijn hoofd legen en lekker genieten van de rust, van de vogel- en wind-door-de-bladerengeluiden.</p>
@@ -34,7 +34,7 @@ function AboutMe() {
             </div>
 
             <div className="right-side side__30">
-                <img src={Avatoon} className="photo avatar" alt="avatar Ellen van Duikeren"/>
+                <img src={AvatarEllen} className="photo avatar" alt="avatar Ellen van Duikeren"/>
                 <p className="photo-caption">It's me (ik kon alleen geen groen-blauw-grijze ogen kiezen, jammer)</p>
             </div>
 

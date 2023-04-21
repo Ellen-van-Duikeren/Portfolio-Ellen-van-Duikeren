@@ -1,49 +1,51 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./ArchivePosts.css";
+import {postsList} from "../../constants/ConstantsList";
 
-function ArchivePosts() {
+
+function ArchivePosts({toggleMorePosts}) {
+    const [morePostsArchive, toggleMorePostsArchive] = useState(false);
+
     return (
         <div>
             <div className="block__orange right-side side__30">
                 <h3>Archief posts</h3>
-                <ol>
-                    <a href="#blogArchive">
-                        <li>Archief posts</li>
-                    </a>
-                    <a href="#blogRain">
-                        <li>Let it rain</li>
-                    </a>
-                    <a href="#blogBlogArchive">
-                        <li>Opschonen code in blog.js</li>
-                    </a>
-                    <a href="#blogHomepage">
-                        <li>Homepage</li>
-                    </a>
-                    <a href="#blogHamburgermenu">
-                        <li>Hamburgermenu</li>
-                    </a>
-                    <a href="#blogUseState">
-                        <li>Usestate</li>
-                    </a>
-                    <a href="#blogResponsive">
-                        <li>Responsive</li>
-                    </a>
-                    <a href="#blogDeploying">
-                        <li>Deploying website</li>
-                    </a>
-                    <a href="#blogFavicon">
-                        <li>Over favicon, title en avatars</li>
-                    </a>
-                    <a href="#blogBlog">
-                        <li>Een nieuwe pagina: blog</li>
-                    </a>
-                    <a href="#blogBasics">
-                        <li>De basis, een statische website</li>
-                    </a>
-                </ol>
+                <ul>
+                    {postsList.map((post) => {
+                        return (
+                            morePostsArchive ?
+                                (
+                            <a href={post[4]}>
+                                <li>{post[2]}</li>
+                            </a>
+                    )
+                                :
+                                post[0] > (postsList.length - 5) &&
+                                (
+                                    <a href={post[4]}>
+                                        <li>{post[2]}</li>
+                                    </a>
+                                )
+                        );
+                    })}
+
+                    <button
+                        type="button"
+                        onClick={() => {
+                            toggleMorePosts(true);
+                            toggleMorePostsArchive(!morePostsArchive);
+                        }}
+                        className="button button--large margin-top1 margin-left1 margin-bottom2"
+                    >
+                        {!morePostsArchive && "meer posts"}
+                        {morePostsArchive && "minder posts"}
+
+                    </button>
+
+                </ul>
             </div>
         </div>
-       );
+    );
 }
 
 export default ArchivePosts;
