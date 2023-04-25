@@ -11,10 +11,12 @@ import BlogBlog from "../pages/blog/posts/BlogBlog";
 import BlogBasics from "../pages/blog/posts/BlogBasics";
 import BlogMappingPosts from "../pages/blog/posts/BlogMappingPosts";
 import BlogMusic from "../pages/blog/posts/BlogMusic";
+import BlogBirds from "../pages/blog/posts/BlogBirds";
 
 
 // list of posts: number, component, title, id, href
 export const postsList = [
+    [14, <BlogBirds/>, "Flying birds", "blogBirds", "#blogBirds"],
     [13, <BlogMusic/>, "Music was my first love", "blogMusic", "#blogMusic"],
     [12, <BlogMappingPosts/>, "Mapping posts", "blogMappingPosts", "#blogMappingPosts"],
     [11, <BlogArchive/>, "Posts archief", "blogArchive", "#blogArchive"],

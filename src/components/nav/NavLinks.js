@@ -15,7 +15,7 @@ const NavLinks = ({isMobile, closeMobileMenu}) => {
                     <li>Home</li>
                 </NavLink>
 
-                <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/about-me"
+                <NavLink className={({isActive}) => isActive ? 'active-menu-link' : 'default-menu-link'} to="/aboutMe"
                          onClick={() => isMobile && closeMobileMenu()}>
                     <li>Over mij</li>
                 </NavLink>
@@ -49,8 +49,6 @@ const NavLinks = ({isMobile, closeMobileMenu}) => {
                 {/*         onClick={() => isMobile && closeMobileMenu()}>*/}
                 {/*    <li>One-page-portfolio</li>*/}
                 {/*</NavLink>*/}
-
-
 
                 <div className="button-animations">
                     <label className="toggle">

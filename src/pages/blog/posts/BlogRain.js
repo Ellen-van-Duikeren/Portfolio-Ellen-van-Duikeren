@@ -7,6 +7,7 @@ function BlogRain() {
         <BlogComp
             date="18 april 2023"
             title="Let it rain"
+            toPage="/portfolio_ellen_van_duikeren/rain"
             src={ScreenshotLetItRain}
             width="100%"
             p1="Eindelijk tijd voor een animatie. Deze animatie staat al vanaf het begin op mijn lijstje: ik wil het laten regenen op de pagina. Ik had hier een hele goede tutorial voor op youtube. Ik had uiteraard nog wat extra issues, omdat ik de code niet in mijn app.js wilde hebben, maar in een eigen component. En natuurlijk wilde ik de hoogte waarover de druppels vallen, anders hebben. Bij mij vallen de druppels nu voor de nav langs en tot op de footer."
@@ -17,7 +18,7 @@ function BlogRain() {
             linkName1="How to make it Rain with CSS Animation, React, & Styled Components"
             href2="https://emojipedia.org/droplet/"
             linkName2="Emojipedia"
-            t1="animations"
+            t1="animation"
             t2="useState"
             t3="useInterval"
             t4="styled.div"

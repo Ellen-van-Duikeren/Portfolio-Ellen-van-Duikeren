@@ -1,9 +1,9 @@
 import React from 'react';
-import "./Spotify.css";
+import "./Music.css";
 import Button from "../../components/button/Button";
 import {SlArrowUpCircle} from "react-icons/sl";
 
-function Spotify() {
+function Music() {
     return (
         <>
             <h1 className="backgroundcolor" id="toTopOfPage">Muziek</h1>
@@ -35,7 +35,7 @@ function Spotify() {
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                             loading="lazy">
                     </iframe>
-                    <a href="#toTopOfPage" className="margin-bottom2"><SlArrowUpCircle size="3em" color="var(--brown)"/></a>
+                    <a href="#toTopOfPage" className="margin-bottom2"><SlArrowUpCircle size="3em" color="var(--orange)"/></a>
                 </div>
 
                 <div className="iframe">
@@ -48,7 +48,7 @@ function Spotify() {
                             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                             loading="lazy">
                     </iframe>
-                    <a href="#toTopOfPage" className="margin-bottom2"><SlArrowUpCircle size="3em" color="var(--brown)"/></a>
+                    <a href="#toTopOfPage" className="margin-bottom2"><SlArrowUpCircle size="3em" color="var(--orange)"/></a>
                 </div>
 
                 <div className="iframe">
@@ -61,7 +61,7 @@ function Spotify() {
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy">
                     </iframe>
-                    <a href="#toTopOfPage" className="margin-bottom2"><SlArrowUpCircle size="3em" color="var(--brown)"/></a>
+                    <a href="#toTopOfPage" className="margin-bottom2"><SlArrowUpCircle size="3em" color="var(--orange)"/></a>
                 </div>
             </div>
 
@@ -70,7 +70,7 @@ function Spotify() {
         ;
 }
 
-export default Spotify;
+export default Music;
 
 
 

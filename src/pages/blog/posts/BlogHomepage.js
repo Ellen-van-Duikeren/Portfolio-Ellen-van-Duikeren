@@ -7,6 +7,7 @@ const BlogHomepage = () => {
         <BlogComp
             date="17 april 2023"
             title="Homepage"
+            toPage="/portfolio_ellen_van_duikeren"
             src={screenshotOldHomepage}
             width="100%"
             alt="Old homepage with photo on the left and text on the rigth side"
@@ -17,7 +18,7 @@ const BlogHomepage = () => {
             href1="https://webcode.tools/generators/css/keyframe-animation"
             linkName1="Webcode animations"
             t1="homepage"
-            t2="animations"
+            t2="animation"
             t3="icons"
         />
     );

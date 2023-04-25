@@ -13,7 +13,7 @@ function Homepage() {
                 <h1 className="slideLeft">Hoi, ik ben <span>Ellen van Duikeren</span></h1>
                 <h1 className="slideLeftRetarded">Ik ben een junior Fullstack Developer</h1>
 
-                <p>Dit portfolio heb ik gemaakt om mijn werk te kunnen laten zien. Daarnaast vind ik het geweldig om bezig te zijn met de frontend en om iets te maken dat helemaal <strong>bij mij</strong> past. Tenslotte ga ik het ook gebruiken om dingen uit te proberen; je leest hierover in mijn blog.</p>
+                <p>Dit portfolio heb ik gemaakt om mijn werk te kunnen laten zien. Daarnaast vind ik het geweldig om bezig te zijn met de frontend en om iets te maken dat helemaal <strong>bij mij</strong> past. Tenslotte ga ik het ook gebruiken om dingen uit te proberen; je leest hierover in <a href="/portfolio_ellen_van_duikeren/blog">mijn blog</a>.</p>
 
                 <p className="margin-top2">Zoals je kunt zien op deze website:</p>
                 <ul>

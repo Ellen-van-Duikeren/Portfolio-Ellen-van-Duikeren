@@ -74,6 +74,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 //        git add .
 //        git commit -m "some message"
 //        git push
-//        npm run build
-//        gh-pages -d build
 //        npm run deploy

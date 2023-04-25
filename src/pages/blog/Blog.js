@@ -102,6 +102,7 @@ function Blog() {
                                     of voor volgende 10
                                 </li>
                                 <li className="line-through">Muziek toevoegen</li>
+                                <li className="line-through">Flying birds</li>
                             </>
                         }
 

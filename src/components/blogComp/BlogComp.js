@@ -6,6 +6,7 @@ import {SlArrowUpCircle} from "react-icons/sl";
 function BlogComp({
                       date,
                       title,
+                      toPage,
                       src,
                       width,
                       alt,
@@ -33,7 +34,7 @@ function BlogComp({
     return (
         <div className="block blog">
             <p>{date}</p>
-            <h3 className="margin-top1">{title}</h3>
+            <a href={toPage}><h3 className="margin-top1">{title}</h3></a>
             {src && <img src={src} className="blog__image margin-bottom1" alt={alt} width={width}/>}
 
             {/*text*/}

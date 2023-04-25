@@ -1,8 +1,7 @@
 nav {
     font-size: var(--baseFont);
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     width: 100vw;
-    /*height: 3em;*/
 }
 
 nav ul {
@@ -34,7 +33,7 @@ nav .active-menu-link {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 4em;
+    height: 3.5em;
     background-color: var(--lightblue);
     width: 100%;
 }
@@ -61,6 +60,9 @@ nav .active-menu-link {
     z-index: 100;
 }
 
+
+
+/*@media*/
 @media only screen and (max-width: 768px) {
     .navigation {
         display: none;
