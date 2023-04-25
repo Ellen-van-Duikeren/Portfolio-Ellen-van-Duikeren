@@ -12,6 +12,7 @@ import Klooien from "./pages/klooien/Klooien";
 import OnePagePortfolio from "./pages/onePagePortfolio/OnePagePortfolio";
 import Rain from "./pages/rain/Rain";
 import NavAnimation from "./components/nav/NavAnimation";
+import Spotify from "./pages/spotify/Spotify";
 
 function App({animation}) {
     return (
@@ -66,6 +67,12 @@ function App({animation}) {
                     path="/rain"
                     element={<Rain/>}
                 />
+
+                <Route
+                    path="/spotify"
+                    element={<Spotify/>}
+                />
+
             </Routes>
 
             <Footer/>

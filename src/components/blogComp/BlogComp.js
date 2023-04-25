@@ -46,7 +46,7 @@ function BlogComp({
                             <span
                                 className="read-more--text"
                                 onClick={() => toggleShow(false)}>
-                                lees minder
+                                &ensp;lees minder
                             </span>
                         </p>
                         :
@@ -58,7 +58,7 @@ function BlogComp({
                             <span
                                 className="read-more--text"
                                 onClick={() => toggleShow(false)}>
-                                lees minder
+                                &ensp;lees minder
                             </span>
                         </p>
                         :
@@ -69,7 +69,7 @@ function BlogComp({
                         <p className="margin-bottom1">{p4}
                             <span className="read-more--text"
                                   onClick={() => toggleShow(false)}>
-                                lees minder
+                                &ensp;lees minder
                             </span>
                         </p>
                         :
@@ -79,7 +79,7 @@ function BlogComp({
                     {p5 && <p className="margin-bottom1">{p5}
                         <span className="read-more--text"
                               onClick={() => toggleShow(false)}>
-                            lees minder
+                            &ensp;lees minder
                         </span>
                     </p>}
                 </>
@@ -88,7 +88,7 @@ function BlogComp({
                     <span
                         className="read-more--text"
                         onClick={() => toggleShow(true)}
-                    >lees meer
+                    >&ensp;lees meer
                     </span>
                 </p>
             }

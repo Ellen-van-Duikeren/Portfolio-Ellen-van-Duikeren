@@ -50,6 +50,8 @@ const NavLinks = ({isMobile, closeMobileMenu}) => {
                 {/*    <li>One-page-portfolio</li>*/}
                 {/*</NavLink>*/}
 
+
+
                 <div className="button-animations">
                     <label className="toggle">
                         <input

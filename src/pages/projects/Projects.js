@@ -23,7 +23,7 @@ function Projects() {
                 <Tile
                     nameImg={wildplukrecepten}
                     title="Wildplukrecepten"
-                    url="https://wildplukrecepten.nl"
+                    // url="https://wildplukrecepten.nl"
                     description="Eindopdracht van opleiding tot full stack developer aan Novi Hogeschool"
                     date="februari 2023"
                     languages="HTML/CSS, Javascript, React, Wordpress, Java, Spring Boot, Maven, Postman, PostgreSQL, IntelliJ, WebStorm, Github, Visual paradigm, Figma"

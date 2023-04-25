@@ -101,6 +101,7 @@ function Blog() {
                                 <li className="line-through">5 meest recente posts tonen en dan button voor meer posts
                                     of voor volgende 10
                                 </li>
+                                <li className="line-through">Muziek toevoegen</li>
                             </>
                         }
 

@@ -17,13 +17,13 @@ function NavAnimation() {
                     let it rain
                 </button>
 
-                {/*<button*/}
-                {/*    type="button"*/}
-                {/*    className="button button--large button--brown"*/}
-                {/*    // onClick={() => <Rain/>}*/}
-                {/*>*/}
-                {/*    animatie2*/}
-                {/*</button>*/}
+                <button
+                    type="button"
+                    className="button button--large button--brown"
+                    onClick={() => navigate("/spotify")}
+                >
+                    muziek
+                </button>
 
                 {/*<button*/}
                 {/*    type="button"*/}
