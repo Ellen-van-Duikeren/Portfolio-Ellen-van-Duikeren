@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 import {Context} from "../../context/Context";
 
 function NavAnimation() {
-    const {letTheBirdsFly} = useContext(Context);
+    const {flying, letTheBirdsFly} = useContext(Context);
     const navigate = useNavigate();
 
     return (
@@ -28,10 +28,9 @@ function NavAnimation() {
             <button
                 type="button"
                 className="button button--large button--brown"
-                onClick={() => {letTheBirdsFly()
-            console.log("Function let the birds fly fired")}}
+                onClick={letTheBirdsFly}
             >
-                birds flying
+                {flying ? "stop those birds!" : "let birds fly" }
             </button>
         </div>
     );

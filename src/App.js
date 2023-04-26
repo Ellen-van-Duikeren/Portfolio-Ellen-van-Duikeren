@@ -7,7 +7,6 @@ import Blog from "./pages/blog/Blog";
 import Contact from "./pages/contact/Contact";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
-import Klooien from "./pages/klooien/Klooien";
 import OnePagePortfolio from "./pages/onePagePortfolio/OnePagePortfolio";
 import Rain from "./pages/rain/Rain";
 import NavAnimation from "./components/nav/NavAnimation";
@@ -15,8 +14,8 @@ import Music from "./pages/music/Music";
 import React, {useContext} from "react";
 import {Context} from "./context/Context";
 
-function App({animationMenu, letItRain, flying}) {
-    const {constants} = useContext(Context);
+function App() {
+    const {flying, animationMenu} = useContext(Context);
 
 
     return (
@@ -81,11 +80,6 @@ function App({animationMenu, letItRain, flying}) {
                 <Route
                     path="/contact"
                     element={<Contact/>}/>
-                />
-
-                <Route
-                    path="/klooien"
-                    element={<Klooien/>}
                 />
 
                 <Route

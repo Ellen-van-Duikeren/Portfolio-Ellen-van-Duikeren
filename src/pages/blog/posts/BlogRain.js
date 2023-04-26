@@ -7,7 +7,7 @@ function BlogRain() {
         <BlogComp
             date="18 april 2023"
             title="Let it rain"
-            toPage="/portfolio_ellen_van_duikeren/rain"
+            toPage="/rain"
             src={ScreenshotLetItRain}
             width="100%"
             p1="Eindelijk tijd voor een animatie. Deze animatie staat al vanaf het begin op mijn lijstje: ik wil het laten regenen op de pagina. Ik had hier een hele goede tutorial voor op youtube. Ik had uiteraard nog wat extra issues, omdat ik de code niet in mijn app.js wilde hebben, maar in een eigen component. En natuurlijk wilde ik de hoogte waarover de druppels vallen, anders hebben. Bij mij vallen de druppels nu voor de nav langs en tot op de footer."

@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import {NavLink} from "react-router-dom";
 import NavAnimation from "./NavAnimation";
+import {Context} from "../../context/Context";
 
 const NavLinks = ({isMobile, closeMobileMenu}) => {
 
     const [animation, toggleAnimation] = useState(false);
+    const {flying, stopTheBirdsFlying} = useContext(Context);
 
     return (
         <>
@@ -58,8 +60,8 @@ const NavLinks = ({isMobile, closeMobileMenu}) => {
                             onClick={() => {
                                 isMobile && closeMobileMenu()
                                 toggleAnimation(!animation)
-                            }
-                            }
+                                {flying && stopTheBirdsFlying()}
+                            }}
                         />
                         <div className="toggle-switch"></div>
                         <span className="toggle-label">Animaties</span>

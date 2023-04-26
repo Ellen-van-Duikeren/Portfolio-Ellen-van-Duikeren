@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "./BlogComp.css";
 import {SlArrowUpCircle} from "react-icons/sl";
+import {Link} from "react-router-dom";
 
 // tile for post on blog page
 function BlogComp({
@@ -34,7 +35,7 @@ function BlogComp({
     return (
         <div className="block blog">
             <p>{date}</p>
-            <a href={toPage}><h3 className="margin-top1">{title}</h3></a>
+            <Link to={toPage}><h3 className="margin-top1">{title}</h3></Link>
             {src && <img src={src} className="blog__image margin-bottom1" alt={alt} width={width}/>}
 
             {/*text*/}

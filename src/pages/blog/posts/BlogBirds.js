@@ -7,7 +7,7 @@ function BlogBirds(props) {
         <BlogComp
             date="25 april 2023"
             title="Flying birds"
-            toPage="portfolio_ellen_van_duikeren/aboutMe"
+            toPage="/aboutMe"
             src={ScreenshotFlyingBird}
             width="15%"
             p1="En nog een animatie. Aangezien ik zo van de natuur hou, dacht ik dat het leuk was om wat flying birds toe te voegen aan mijn website. Eerst dacht ik nog, oke, gewoon de code kopiëren en het werkt. Maar dat is dus niet zo. Bovendien vind ik daar echt niks aan; ik wil ook snappen wat ik aan het doen ben. Gelukkig viel er nog genoeg te ontdekken en zelf te coderen."

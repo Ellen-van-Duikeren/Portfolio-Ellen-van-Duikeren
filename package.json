@@ -4,6 +4,7 @@
   "homepage": "http://Ellen-van-Duikeren.github.io/portfolio_ellen_van_duikeren",
   "private": true,
   "dependencies": {
+    "@react-email/link": "0.0.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

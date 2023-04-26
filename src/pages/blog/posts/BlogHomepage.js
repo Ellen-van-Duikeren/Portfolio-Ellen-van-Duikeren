@@ -7,7 +7,7 @@ const BlogHomepage = () => {
         <BlogComp
             date="17 april 2023"
             title="Homepage"
-            toPage="/portfolio_ellen_van_duikeren"
+            toPage="/"
             src={screenshotOldHomepage}
             width="100%"
             alt="Old homepage with photo on the left and text on the rigth side"

@@ -24,9 +24,23 @@ function ContextProvider({children}) {
     }
 
     function letTheBirdsFly() {
+        if (constants.flying) {
+            setConstants({
+                ...constants,
+                flying: false
+            })
+        } else {
+            setConstants({
+                ...constants,
+                flying: true
+            })
+        }
+    }
+
+    function stopTheBirdsFlying() {
         setConstants({
             ...constants,
-            flying: true
+            flying: false
         })
     }
 
@@ -36,7 +50,8 @@ function ContextProvider({children}) {
         flying: constants.flying,
         showAnimationMenu: showAnimationMenu,
         letItRainFunction: letItRainFunction,
-        letTheBirdsFly: letTheBirdsFly
+        letTheBirdsFly: letTheBirdsFly,
+        stopTheBirdsFlying: stopTheBirdsFlying
     }
 
 

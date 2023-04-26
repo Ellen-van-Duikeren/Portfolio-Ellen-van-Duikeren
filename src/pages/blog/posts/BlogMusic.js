@@ -7,7 +7,7 @@ function BlogMusic(props) {
 <BlogComp
     date="25 april 2023"
     title="Music was my first love"
-    toPage="/portfolio_ellen_van_duikeren/music"
+    toPage="/music"
     src={ScreenshotMusic}
     width="100%"
     p1="Ik had zin om wat muziek toe te voegen aan mijn website. Muziek zegt natuurlijk veel over de persoon die je bent. Ik heb een keer mijn ultieme afspeellijst aangemaakt op Music, maar ik denk dat ik daar ongeveer 3/4 van de top 2000 ingestopt heb. Die kunnen jullie zelf natuurlijk ook vinden."

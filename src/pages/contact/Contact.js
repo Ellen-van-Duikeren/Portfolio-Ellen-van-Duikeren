@@ -22,7 +22,8 @@ function Contact() {
                     {/*<p>Zoek je een enthousiaste fullstack developer, neem dan contact met mij op:</p>*/}
                     <li><IoIosPerson/> Ellen van Duikeren</li>
                     <li><GoLocation/> Woonplaats: Haarlem</li>
-                    <li>✉<a href="mailto:e.vanduikeren@gmail.com" target="_blank" rel="noreferrer"> Mail</a></li>
+                    {/*<li>✉<a href="mailto:e.vanduikeren@gmail.com"> Mail</a></li>*/}
+                    <li>✉ e.vanduikeren@gmail.com</li>
                     <li><a href="https://www.linkedin.com/in/ellen-van-duikeren/" target="_blank"
                            rel="noreferrer"><CiLinkedin/> LinkedIn</a></li>
                     <li><a href="https://github.com/Ellen-van-Duikeren" target="_blank"

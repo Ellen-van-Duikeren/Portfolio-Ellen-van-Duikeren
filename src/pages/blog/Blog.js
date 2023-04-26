@@ -62,6 +62,7 @@ function Blog() {
                     <ol>
                         <li>blog pagina: als op link in archief geklikt, dan automatisch hele blog ipv lees meer</li>
                         <li>blog, zoeken (door te klikken?) op tags</li>
+                        <li>datum blogs als datum opslaan ipv als string</li>
                         <li>blogs, zoeken op datum</li>
                         <li>versie maken met andere, minder heftige, kleuren, met usecontext?</li>
                         <li>uitzoeken hoe ik link kan opnemen in p tekst van Blogcomponent</li>

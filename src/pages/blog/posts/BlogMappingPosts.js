@@ -7,7 +7,7 @@ function BlogMappingPosts() {
         <BlogComp
             date="21 april 2023"
             title="Mapping posts"
-            toPage="/portfolio_ellen_van_duikeren/blog"
+            toPage="/blog"
             src={ScreenshotPostMapping}
             width="50%"
             p1="Toch wel jammer, dat je een paar uur bezig bent en dat er dan uiterlijk niks is veranderd op je website. Nu ik al elf posts heb, wil ik alleen de eerste 5 posts tonen op mijn blogpagina. Als je op een button klikt, toont hij de andere ook. Om dit mogelijk te maken, heb ik bedacht om mijn posts eerst in een array te zetten, waarover ik dan kan mappen. Dit had meer voeten in de aarde, dan ik eerst dacht."

@@ -2,7 +2,7 @@ import React from 'react';
 import BlogComp from "../../../components/blogComp/BlogComp";
 import ScreenshotMusic from "../../../assets/ScreenshotMusic.png";
 
-function AABlueprint(props) {
+function AABlueprint() {
     return (
         <BlogComp
             date=""
