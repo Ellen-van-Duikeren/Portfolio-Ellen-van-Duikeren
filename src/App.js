@@ -8,48 +8,28 @@ import Contact from "./pages/contact/Contact";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import OnePagePortfolio from "./pages/onePagePortfolio/OnePagePortfolio";
-import Rain from "./pages/rain/Rain";
+import Rain from "./animations/rain/Rain";
 import NavAnimation from "./components/nav/NavAnimation";
 import Music from "./pages/music/Music";
 import React, {useContext} from "react";
-import {Context} from "./context/Context";
+import {AnimationContext} from "./context/AnimationContext";
+import Birds from "./animations/birds/Birds";
+import Heartbeat from "./animations/heartbeat/Heartbeat";
 
 function App() {
-    const {flying, animationMenu} = useContext(Context);
+    const {flying, raining, heartBeating, animationMenu} = useContext(AnimationContext);
 
 
     return (
         <div>
 
-            <div className="container">
-
-                {/*animation birds flying*/}
-                {flying &&
-                    <>
-                        <div className="bird-container bird-container--one">
-                            <div className="bird bird--one"></div>
-                        </div>
-
-                        <div className="bird-container bird-container--two">
-                            <div className="bird bird--two"></div>
-                        </div>
-
-                        <div className="bird-container bird-container--three">
-                            <div className="bird bird--three"></div>
-                        </div>
-
-                        <div className="bird-container bird-container--four">
-                            <div className="bird bird--four"></div>
-                        </div>
-                    </>
-                }
-            </div>
+            {/*animations*/}
+            {flying && <Birds/>}
+            {raining && <Rain/>}
+            {heartBeating && <Heartbeat/>}
 
             <Nav/>
-
-
             {animationMenu && <NavAnimation/>}
-
 
             <Routes>
                 <Route

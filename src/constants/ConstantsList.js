@@ -13,10 +13,15 @@ import BlogMappingPosts from "../pages/blog/posts/BlogMappingPosts";
 import BlogMusic from "../pages/blog/posts/BlogMusic";
 import BlogBirds from "../pages/blog/posts/BlogBirds";
 import BlogLinks from "../pages/blog/posts/BlogLinks";
-
+import BlogStoppingBirds from "../pages/blog/posts/BlogStoppingBirds";
+import BlogJob from "../pages/blog/posts/BlogJob";
+import BlogHeart from "../pages/blog/posts/BlogHeart";
 
 // list of posts: number, component, title, id, href
 export const postsList = [
+    [17, <BlogHeart/>, "Heart beating", "blogHeart", "#blogHeart"],
+    [17, <BlogJob/>, "I have got a job", "blogJob", "#blogJob"],
+    [16, <BlogStoppingBirds/>, "Stop those birds", "blogStoppingBirds", "#blogStoppingBirds"],
     [15, <BlogLinks/>, "Links", "blogLinks", "#blogLinks"],
     [14, <BlogBirds/>, "Flying birds", "blogBirds", "#blogBirds"],
     [13, <BlogMusic/>, "Music was my first love", "blogMusic", "#blogMusic"],
@@ -35,31 +40,3 @@ export const postsList = [
 ]
 
 
-//
-// export const postTitles = [
-//         "Post archief",
-//         "Let it rain",
-//         "Opschonen code in blog.js",
-//         "Homepage",
-//         "HamburgerMenu",
-//         "UseState",
-//         "Responsive",
-//         "Deploying website",
-//         "Over favicon, title en avatars",
-//         "Een nieuwe pagina: blog",
-//         "De basis, een statische website"
-//     ];
-//
-// export const postsComponents = [
-//         <BlogArchive/>,
-//         <BlogRain/>,
-//         <BlogBlogArchive/>,
-//         <BlogHomepage/>,
-//         <BlogHamburgerMenu/>,
-//         <BlogUseState/>,
-//         <BlogResponsive/>,
-//         <BlogDeploying/>,
-//         <BlogFavicon/>,
-//         <BlogBlog/>,
-//         <BlogBasics/>
-// ];

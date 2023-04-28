@@ -67,7 +67,6 @@ function Blog() {
                         <li>versie maken met andere, minder heftige, kleuren, met usecontext?</li>
                         <li>uitzoeken hoe ik link kan opnemen in p tekst van Blogcomponent</li>
                         <li>pop ups component</li>
-                        <li>kloppend hart met geluid</li>
                         <li>one page portfolio</li>
                         <li>games wildplukken? hearts?</li>
                         <li>animations button oid ook in mobiel version</li>
@@ -104,6 +103,7 @@ function Blog() {
                                 </li>
                                 <li className="line-through">Muziek toevoegen</li>
                                 <li className="line-through">Flying birds</li>
+                                <li className="line-through">kloppend hart met geluid</li>
                             </>
                         }
 

@@ -15,7 +15,7 @@ function Rain() {
             emojisToRender.shift();
         }
 
-        const offset = Math.floor(Math.random() * 1000);
+        const offset = Math.floor(Math.random() * 1200);
         const key = offset + Math.floor(Math.random() * 100000);
         const emoji = "💧";
 
@@ -24,7 +24,8 @@ function Rain() {
     }, 100);
 
     return (
-        <div className="rain-page">
+        // <div className="rain-page">
+        <div>
             <SuperContainer>
                 {emojisToRender.map(({key, emoji, offset}) => {
                     return (

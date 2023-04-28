@@ -1,12 +1,20 @@
 import React, {useContext, useState} from 'react';
 import {NavLink} from "react-router-dom";
 import NavAnimation from "./NavAnimation";
-import {Context} from "../../context/Context";
+import {AnimationContext} from "../../context/AnimationContext";
 
 const NavLinks = ({isMobile, closeMobileMenu}) => {
 
     const [animation, toggleAnimation] = useState(false);
-    const {flying, stopTheBirdsFlying} = useContext(Context);
+    const {flying, stopTheBirdsFlying, raining, stopTheRain, heartBeating, stopTheHeartBeating} = useContext(AnimationContext);
+
+    function whenClosingAnimationsMenu() {
+        isMobile && closeMobileMenu();
+        flying && stopTheBirdsFlying();
+        toggleAnimation(!animation);
+        raining && stopTheRain();
+        heartBeating && stopTheHeartBeating();
+    }
 
     return (
         <>
@@ -57,11 +65,7 @@ const NavLinks = ({isMobile, closeMobileMenu}) => {
                         <input
                             className="toggle-checkbox"
                             type="checkbox"
-                            onClick={() => {
-                                isMobile && closeMobileMenu()
-                                toggleAnimation(!animation)
-                                {flying && stopTheBirdsFlying()}
-                            }}
+                            onClick={whenClosingAnimationsMenu}
                         />
                         <div className="toggle-switch"></div>
                         <span className="toggle-label">Animaties</span>

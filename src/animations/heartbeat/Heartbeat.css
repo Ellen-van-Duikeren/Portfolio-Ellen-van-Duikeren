@@ -1,0 +1,28 @@
+.animation-heart {
+    background-color: var(--brown);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heart {
+    height: 5em;
+    object-fit: contain;
+    animation-name: heartBeat;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heartBeat {
+    0%, 100% {
+        transform: scale(1, 1);
+    }
+    30%, 90% {
+        transform: scale(0.8, 0.8);
+    }
+}
+
+.audio {
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
