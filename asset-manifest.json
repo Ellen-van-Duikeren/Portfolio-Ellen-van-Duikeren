@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio_ellen_van_duikeren/static/css/main.590a3d08.css",
-    "main.js": "/portfolio_ellen_van_duikeren/static/js/main.58122038.js",
+    "main.css": "/portfolio_ellen_van_duikeren/static/css/main.97e599af.css",
+    "main.js": "/portfolio_ellen_van_duikeren/static/js/main.cc8dc535.js",
     "static/media/ScreenshotLetItRain.png": "/portfolio_ellen_van_duikeren/static/media/ScreenshotLetItRain.ac59c716ffeae4104aa0.png",
     "static/media/ScreenshotMusic.png": "/portfolio_ellen_van_duikeren/static/media/ScreenshotMusic.092b43d1d46bc963c119.png",
     "static/media/ScreenshotHomepageOld.png": "/portfolio_ellen_van_duikeren/static/media/ScreenshotHomepageOld.e18a019970e66db9eed3.png",
     "static/media/UitkijkpuntNorway.jpg": "/portfolio_ellen_van_duikeren/static/media/UitkijkpuntNorway.4ff60fb53adf33b0e0a8.jpg",
+    "static/media/mixkit-human-single-heart-beat-490.wav": "/portfolio_ellen_van_duikeren/static/media/mixkit-human-single-heart-beat-490.76c602235da92c81102f.wav",
     "static/media/TilesPortugalCropped (Small).jpg": "/portfolio_ellen_van_duikeren/static/media/TilesPortugalCropped (Small).4af6185806762a72f05b.jpg",
     "static/media/AvatarEllen.jpg": "/portfolio_ellen_van_duikeren/static/media/AvatarEllen.a12f48e4e06fedf046fa.jpg",
     "static/media/ScreenshotHamburgerMenu.png": "/portfolio_ellen_van_duikeren/static/media/ScreenshotHamburgerMenu.9baaff4313098f2739a0.png",
@@ -14,14 +15,16 @@
     "static/media/roodwerk.jpg": "/portfolio_ellen_van_duikeren/static/media/roodwerk.57ea93bf4c6834a596e7.jpg",
     "static/media/wildplukrecepten.jpg": "/portfolio_ellen_van_duikeren/static/media/wildplukrecepten.448b15ef294490bc3229.jpg",
     "static/media/ScreenshotPostMapping.png": "/portfolio_ellen_van_duikeren/static/media/ScreenshotPostMapping.d85da778e3dab562fb0c.png",
+    "static/media/ScreenshotStoppingBirds.png": "/portfolio_ellen_van_duikeren/static/media/ScreenshotStoppingBirds.5f1cb38117ec38aba2c8.png",
+    "static/media/heart.png": "/portfolio_ellen_van_duikeren/static/media/heart.35a1c92a35bd38949d38.png",
     "static/media/ScreenshotBlogLinks.png": "/portfolio_ellen_van_duikeren/static/media/ScreenshotBlogLinks.fd310a6d89de937ab68c.png",
     "static/media/birds.svg": "/portfolio_ellen_van_duikeren/static/media/birds.579440de6c0438f40b2b.svg",
     "index.html": "/portfolio_ellen_van_duikeren/index.html",
-    "main.590a3d08.css.map": "/portfolio_ellen_van_duikeren/static/css/main.590a3d08.css.map",
-    "main.58122038.js.map": "/portfolio_ellen_van_duikeren/static/js/main.58122038.js.map"
+    "main.97e599af.css.map": "/portfolio_ellen_van_duikeren/static/css/main.97e599af.css.map",
+    "main.cc8dc535.js.map": "/portfolio_ellen_van_duikeren/static/js/main.cc8dc535.js.map"
   },
   "entrypoints": [
-    "static/css/main.590a3d08.css",
-    "static/js/main.58122038.js"
+    "static/css/main.97e599af.css",
+    "static/js/main.cc8dc535.js"
   ]
 }
